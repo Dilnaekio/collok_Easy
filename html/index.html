@@ -10,7 +10,55 @@
 </head>
 <body>
     
-    <h1>Collok Easy</h1>
-OUOUOUOUOUO
+    <!-- Title Collok Easy in header -->
+    <header width=100%>
+        <h1>Collok Easy</h1>
+    </header>
+
+    <!-- Form connection -->
+    <table>
+        <!-- TODO create a real link with connectionRequest.php -->
+        <form action="connectionRequested.php" method="get">
+                <fieldset>
+                <label for="mailRequired">Identifiant</label>
+                <br>
+                <input type="email" name="mailId" id="mailRequired" placeholder="adresse mail..." required>
+                
+                <br>
+
+                <label for="mdpRequired">Mot de passe</label>
+                <br>
+                <input type="password" name="mdpId" id="mdpRequired" placeholder="mot de passe..." required>
+
+                <br>
+                <table>
+                    <tr>
+                        <!-- TODO include link to reset ID page to reset password -->
+                        <td> <a href="" id="forgottenId">Un petit oubli d'ID ?</a> </td>
+                        <!-- TODO include link to create a whole new user account -->
+                        <td> <a href="" id="newUserAccount">Rejoindre la Collok Family !</a> </td>
+                    </tr>
+                </table>
+
+                <input type="submit" value="Connexion">
+            </fieldset>
+        </form>
+    </table>
+
+    <!-- Footer with contacts and link for support -->
+    <footer>
+        <table width=100%>
+            <tr>
+                <td>
+                    <!-- TODO put a link to redirect users on page support (FAQ, frequently asked, etc.) -->
+                    Support
+                </td>
+                <td> 
+                    <!-- TODO It's my personal mail contact, replace later with a dedicated one -->
+                    <a href="mailto:delcourtfabian@gmail.com">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
