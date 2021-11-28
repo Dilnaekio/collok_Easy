@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Création d'un nouveau collokers !">
+
+    <title>Rejoindre la Collok Family !</title>
+</head>
+
+<body>
+    
+    <!-- Informations form for new user -->
+    <form action="sendInfosNewUser.php" method="post">
+        <fieldset>
+            <legend> Identité </legend>
+
+            <!-- Last and first names -->
+            <label for="lastName">Nom(*)</label>
+            <br>
+            <input type="text" name="lastName" id="lastName" required>
+
+            <br>
+
+            <!-- Last and first names -->
+            <label for="firstName">Prénom (*)</label>
+            <br>
+            <input type="text" name="firstName" id="firstName" required>
+
+            <br>
+
+            <!-- Nickname -->
+            <label for="userNickname">Surnom</label>
+            <br>
+            <input type="text" name="userNickname" id="userNickname">
+
+            <br>
+
+            <!-- Gender, default choice on "Non défini" -->
+            <label for="userGenderSelection">Sexe</label>
+            <br>
+            <select name="userGenderSelection" id="userGenderSelection">
+                <option value="Non défini" selected>Non défini</option>
+                <option value="Homme"> Homme</option>
+                <option value="Femme"> Femme</option>
+                <option value="Non binaire">Non binaire</option>
+            </select>
+
+            <br>
+
+            <!-- Birthday -->
+            <label for="userBirthday">Naissance(*)</label>
+            <br>
+            <input type="date" name="userBirthday" id="userBirthday">
+        </fieldset>
+    </form>
+</body>
+</html>
