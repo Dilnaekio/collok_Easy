@@ -52,8 +52,49 @@
             <!-- Birthday -->
             <label for="userBirthday">Naissance(*)</label>
             <br>
-            <input type="date" name="userBirthday" id="userBirthday">
+            <input type="date" name="userBirthday" id="userBirthday" required>
         </fieldset>
+
+        <!-- Second part : mail adresse -->
+        <fieldset>
+            <legend>
+                Adresse mail
+            </legend>
+
+            <label for="mailUser">Mail</label>
+            <input type="text" name="mailUser" id="mailUser" placeholder="Entrez votre adresse mail">
+        </fieldset>
+
+        <!-- Third part : colocation -->
+        <fieldset>
+            <legend>
+                Colocation
+            </legend>
+            <!--  User has already a colocation to join-->
+            <label for="colocationToJoin">Déjà dans une colocation Collok Easy ?</label>
+            <input type="text" name="colocationToJoin" id="colocationToJoin" placeholder="Lien vers votre colocation">
+            <br>
+            <!-- User needs to create a new colocation -->
+            <label for="newColocation">Une nouvelle colocation ?</label>
+            <input type="text" name="newColocation" id="newColocation" placeholder="Nom de votre nouvelle colocation">
+        </fieldset>
+
+        <!-- Fourth part : password -->
+        <fieldset>
+            <legend>
+                Mot de passe
+            </legend>
+            <!--  First enter-->
+            <label for="passwordUser">Mot de passe(*)</label>
+            <input type="text" name="passwordUser" id="passwordUser" placeholder="Entrez votre mot de passe" required>
+            <br>
+            <!-- Confirm password -->
+            <label for="confirmedPassword">Confirmer le mot de passe(*)</label>
+            <input type="text" name="confirmedPassword" id="confirmedPassword" placeholder="Confirmez votre mot de passe" required>
+        </fieldset>
+
+        <!-- Submit infos -->
+        <input type="submit" value="Rejoindre la Collok Family !">
     </form>
 </body>
 </html>
