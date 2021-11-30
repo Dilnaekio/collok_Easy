@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color:#faf6e9;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Comforter', cursive;
+    padding: 1%;
+    margin: 5rem 0.5rem;
+}
+
+h1 span{
+    color: rgb(235, 192, 76);
+    font-style: italic;
+}
+
+.connection{
+    width: 50%;
+    margin: auto;
+}
+
+div {
+    margin: 1rem 0;
+}
+
+label, a{
+    font-family: 'Merriweather', 'Roboto Slab', cursive;
+}
