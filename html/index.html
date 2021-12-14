@@ -19,19 +19,18 @@
         <h1>Collok <span>Easy</span></h1>
     </header>
 
+    <main>
     <!-- Form connection -->
     
     <!-- TODO create a real link with connectionRequest.php -->
-    <form class="connection" action="connectionRequested.php" method="get">
-        <div>
+    <form class="dGrid" action="connectionRequested.php" method="get">
+        <div class="dGrid">
             <label for="mailRequired">Identifiant</label>
-            <br>
             <input type="email" name="mailId" id="mailRequired" placeholder="adresse mail..." required>
         </div>
 
-        <div>
+        <div class="dGrid">
             <label for="mdpRequired">Mot de passe</label>
-            <br>
             <input type="password" name="mdpId" id="mdpRequired" placeholder="mot de passe..." required>
         </div>
 
@@ -47,13 +46,17 @@
             <a href="users/accountCreation.html" id="newUserAccount">Rejoindre la <span>Collok</span> Family !</a>
         </div>  
     </form>
+</main>
 
     <!-- Footer with contacts and link for support -->
     <footer>
+         <nav>
         <!-- TODO put a link to redirect users on page support (FAQ, frequently asked, etc.) -->
-        <span>Support |</span>
+            <a href="">Support</a>
+        
         <!-- TODO It's my personal mail contact, replace later with a dedicated one -->
-        <a href="mailto:delcourtfabian@gmail.com">Contact</a>
+            <a href="mailto:delcourtfabian@gmail.com">Contact</a>
+        </nav>
     </footer>
 </body>
 </html>

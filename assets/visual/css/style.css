@@ -1,32 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap');
 
+:root{
+    /* Classic colors */
+    --black:#000000;
+
+    /* Special Colors */
+    --brightYellow: rgb(235, 192, 76);
+    --brokenYellow: #faf6e9;
+
+    /* Fonts */
+    --comforter: 'Comforter', cursive;
+    --meriweather: 'Merriweather', 'Roboto Slab', cursive;
+}
+
+/* General ------ */
+
 body{
-    background-color:#faf6e9;
+    background-color:var(--brokenYellow);
     text-align: center;
 }
 
+div {margin: 1rem 0;}
+
+label, a{font-family: var(--meriweather);}
+
+a{
+    text-decoration: none;
+    color: var(--brightYellow);
+    font-weight: bold;
+}
+
+.dGrid{display: grid;}
+
+/* Header ------ */
+
 h1{
     font-size: 5rem;
-    font-family: 'Comforter', cursive;
+    font-family: --comforter;
     padding: 1%;
     margin: 5rem 0.5rem;
 }
 
 h1 span{
-    color: rgb(235, 192, 76);
+    color: var(--brightYellow);
     font-style: italic;
 }
 
-.connection{
-    width: 50%;
+/* Main ------ */
+
+main{
+    width: 80%;
+    height: 100%;
     margin: auto;
+    grid-template-columns: 1fr;
 }
 
-div {
-    margin: 1rem 0;
-}
-
-label, a{
-    font-family: 'Merriweather', 'Roboto Slab', cursive;
+main form div{
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    /* Gap will be 50% from parent height */
+    gap: 50%;
 }
