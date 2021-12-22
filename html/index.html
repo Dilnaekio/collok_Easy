@@ -4,13 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Collok easy, your new best friend to manage your home with your roomates">
+    <meta name="description" content="Collok easy, ton nouveau meilleur ami pour mieux gérer ta colocation !">
+
+    <link rel="stylesheet" href="../assets/visual/css/reset.css">
+    <link rel="stylesheet" href="../assets/visual/css/style.css">
 
     <title>Collok Easy</title>
 </head>
+
 <body>
     
-    <h1>Collok Easy</h1>
-OUOUOUOUOUO
+    <!-- Title Collok Easy in header -->
+    <header>
+        <h1>Collok <span>Easy</span></h1>
+    </header>
+
+    <main>
+    <!-- Form connection -->
+    
+    <!-- TODO create a real link with connectionRequest.php -->
+    <form class="dGrid" action="connectionRequested.php" method="get">
+        <div class="dGrid">
+            <label for="mailRequired">Identifiant</label>
+            <input type="email" name="mailId" id="mailRequired" placeholder="adresse mail..." required>
+        </div>
+
+        <div class="dGrid">
+            <label for="mdpRequired">Mot de passe</label>
+            <input type="password" name="mdpId" id="mdpRequired" placeholder="mot de passe..." required>
+        </div>
+
+        <div>
+            <input type="submit" value="Connexion">
+        </div>
+
+        <div>
+            <!-- TODO include link to reset ID page to reset password -->
+            <a href="" id="forgottenId">Un petit oubli d'ID ?</a>
+
+            <!-- TODO include link to create a whole new user account -->
+            <a href="users/accountCreation.html" id="newUserAccount">Rejoindre la <span>Collok</span> Family !</a>
+        </div>  
+    </form>
+</main>
+
+    <!-- Footer with contacts and link for support -->
+    <footer>
+         <nav>
+        <!-- TODO put a link to redirect users on page support (FAQ, frequently asked, etc.) -->
+            <a href="">Support</a>
+        
+        <!-- TODO It's my personal mail contact, replace later with a dedicated one -->
+            <a href="mailto:delcourtfabian@gmail.com">Contact</a>
+        </nav>
+    </footer>
 </body>
 </html>
