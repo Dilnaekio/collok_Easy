@@ -74,7 +74,7 @@
 									"top": 20,
 									"width": 537,
 									"height": 13,
-									"text": "SI",
+									"text": "IS",
 									"verticalAlignment": 3
 								}
 							],
@@ -119,7 +119,7 @@
 									"top": 20,
 									"width": 521,
 									"height": 13,
-									"text": "Serveur",
+									"text": "Server",
 									"verticalAlignment": 3
 								}
 							],
@@ -161,7 +161,7 @@
 									"top": 20,
 									"width": 513,
 									"height": 13,
-									"text": "BDD",
+									"text": "Database",
 									"verticalAlignment": 3
 								}
 							],
@@ -1030,7 +1030,7 @@
 											"top": 112,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from SI)"
+											"text": "(from IS)"
 										},
 										{
 											"_type": "LabelView",
@@ -1086,20 +1086,6 @@
 						},
 						{
 							"_type": "UMLControlNodeView",
-							"_id": "AAAAAAF96PxnsMh6r1s=",
-							"_parent": {
-								"$ref": "AAAAAAF96Okxo8dTOos="
-							},
-							"model": {
-								"$ref": "AAAAAAF96PxnsMh4VWU="
-							},
-							"font": "Arial;13;0",
-							"containerChangeable": true,
-							"width": 23,
-							"height": 19
-						},
-						{
-							"_type": "UMLControlNodeView",
 							"_id": "AAAAAAF96Px1fsh/XDM=",
 							"_parent": {
 								"$ref": "AAAAAAF96Okxo8dTOos="
@@ -1144,7 +1130,7 @@
 										"$ref": "AAAAAAF96Pyy98iGDjI="
 									},
 									"edgePosition": 1,
-									"text": "Validate ?"
+									"text": "Valid ?"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1458,7 +1444,7 @@
 											"top": -72,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from SI)"
+											"text": "(from IS)"
 										},
 										{
 											"_type": "LabelView",
@@ -1752,7 +1738,7 @@
 											"top": -96,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Serveur)"
+											"text": "(from Server)"
 										},
 										{
 											"_type": "LabelView",
@@ -2170,7 +2156,7 @@
 											"top": -72,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Serveur)"
+											"text": "(from Server)"
 										},
 										{
 											"_type": "LabelView",
@@ -2380,9 +2366,9 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"top": -168,
-											"width": 86.6708984375,
+											"width": 93.919921875,
 											"height": 13,
-											"text": "(from BDD)"
+											"text": "(from Database)"
 										},
 										{
 											"_type": "LabelView",
@@ -2682,9 +2668,9 @@
 											"font": "Arial;13;0",
 											"left": -384,
 											"top": -72,
-											"width": 86.6708984375,
+											"width": 93.919921875,
 											"height": 13,
-											"text": "(from BDD)"
+											"text": "(from Database)"
 										},
 										{
 											"_type": "LabelView",
@@ -3279,7 +3265,7 @@
 											"top": -144,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from SI)"
+											"text": "(from IS)"
 										},
 										{
 											"_type": "LabelView",
@@ -3578,14 +3564,6 @@
 				},
 				{
 					"_type": "UMLDecisionNode",
-					"_id": "AAAAAAF96PxnsMh4VWU=",
-					"_parent": {
-						"$ref": "AAAAAAF96Okxo8dSfUA="
-					},
-					"name": "DecisionNode1"
-				},
-				{
-					"_type": "UMLDecisionNode",
 					"_id": "AAAAAAF96Px1fsh9Qk4=",
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
@@ -3684,7 +3662,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Validate ?",
+					"name": "Valid ?",
 					"source": {
 						"$ref": "AAAAAAF96PsjE8gr+/0="
 					},
@@ -3895,7 +3873,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "SI",
+					"name": "IS",
 					"nodes": [
 						{
 							"_type": "UMLAction",
@@ -3931,7 +3909,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Serveur",
+					"name": "Server",
 					"nodes": [
 						{
 							"_type": "UMLAction",
@@ -3957,7 +3935,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "BDD",
+					"name": "Database",
 					"nodes": [
 						{
 							"_type": "UMLDecisionNode",
