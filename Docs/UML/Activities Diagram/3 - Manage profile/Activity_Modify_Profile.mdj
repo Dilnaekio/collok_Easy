@@ -2480,7 +2480,7 @@
 											"top": 1551,
 											"width": 55.64990234375,
 											"height": 91,
-											"text": "DIsplay error message \"You must fulfill fields\"",
+											"text": "Display error message \"You must fulfill fields\"",
 											"wordWrap": true
 										},
 										{
@@ -6419,7 +6419,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "DIsplay error message \"You must fulfill fields\"",
+							"name": "Display error message \"You must fulfill fields\"",
 							"kind": "sendSignal"
 						},
 						{

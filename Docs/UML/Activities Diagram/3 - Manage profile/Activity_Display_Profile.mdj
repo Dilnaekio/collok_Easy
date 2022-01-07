@@ -5066,7 +5066,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display profile infos"
+							"name": "Display profile infos",
+							"kind": "sendSignal"
 						},
 						{
 							"_type": "UMLActivityFinalNode",
