@@ -238,9 +238,9 @@
 											"font": "Arial;13;1",
 											"left": 117,
 											"top": 119,
-											"width": 161.8525390625,
+											"width": 164.759765625,
 											"height": 13,
-											"text": "Clic on \"Suppress task\""
+											"text": "Clic on \"Suppress reward\""
 										},
 										{
 											"_type": "LabelView",
@@ -273,7 +273,7 @@
 									"font": "Arial;13;0",
 									"left": 112,
 									"top": 112,
-									"width": 171.8525390625,
+									"width": 174.759765625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF967QbNSA3/Lo="
@@ -296,7 +296,7 @@
 							"containerChangeable": true,
 							"left": 112,
 							"top": 112,
-							"width": 171.8525390625,
+							"width": 174.759765625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF967QbNCA2DPU="
@@ -1676,7 +1676,7 @@
 											"top": 1375,
 											"width": 264.3544921875,
 											"height": 13,
-											"text": "Display confirmation of task removal"
+											"text": "Display confirmation of reward removal"
 										},
 										{
 											"_type": "LabelView",
@@ -2467,7 +2467,7 @@
 											"top": 1135,
 											"width": 102.578125,
 											"height": 13,
-											"text": "Remove task"
+											"text": "Remove reward"
 										},
 										{
 											"_type": "LabelView",
@@ -2569,9 +2569,9 @@
 											"font": "Arial;13;1",
 											"left": 1517,
 											"top": 719,
-											"width": 153.15625,
+											"width": 156.0634765625,
 											"height": 13,
-											"text": "Check if task still exist"
+											"text": "Check if reward still exist"
 										},
 										{
 											"_type": "LabelView",
@@ -2602,7 +2602,7 @@
 									"font": "Arial;13;0",
 									"left": 1512,
 									"top": 712,
-									"width": 163.15625,
+									"width": 166.0634765625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JbdOCPfJQCc="
@@ -2622,7 +2622,7 @@
 							"containerChangeable": true,
 							"left": 1512,
 							"top": 712,
-							"width": 163.15625,
+							"width": 166.0634765625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+JbdOCPfIk5g="
@@ -2781,9 +2781,9 @@
 											"font": "Arial;13;1",
 											"left": 1493,
 											"top": 887,
-											"width": 76.01953125,
+											"width": 94.3134765625,
 											"height": 65,
-											"text": "Send error message \"Task_name can't be found\"",
+											"text": "Send error message \"Reward_name can't be found\"",
 											"wordWrap": true
 										},
 										{
@@ -2821,7 +2821,7 @@
 									"font": "Arial;13;0",
 									"left": 1488,
 									"top": 880,
-									"width": 86.01953125,
+									"width": 104.3134765625,
 									"height": 77,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JbgJ0vf90eM="
@@ -2843,7 +2843,7 @@
 							"containerChangeable": true,
 							"left": 1488,
 							"top": 880,
-							"width": 86.01953125,
+							"width": 104.3134765625,
 							"height": 93,
 							"autoResize": true,
 							"nameCompartment": {
@@ -3114,8 +3114,8 @@
 										"$ref": "AAAAAAF+JbjF/fhQMpM="
 									},
 									"font": "Arial;13;0",
-									"left": 1519,
-									"top": 779,
+									"left": 1520,
+									"top": 777,
 									"width": 62.130859375,
 									"height": 13,
 									"alpha": -1.7407624595426303,
@@ -3137,8 +3137,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1627,
-									"top": 778,
+									"left": 1628,
+									"top": 779,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3158,7 +3158,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1583,
+									"left": 1584,
 									"top": 783,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3177,7 +3177,7 @@
 								"$ref": "AAAAAAF+JbdOCPfHvkI="
 							},
 							"lineStyle": 1,
-							"points": "1595:753;1602:823",
+							"points": "1596:753;1602:823",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JbjF/vhSzwU="
@@ -3497,8 +3497,8 @@
 									"lineColor": "#ff0000",
 									"fontColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 1526,
-									"top": 846,
+									"left": 1527,
+									"top": 849,
 									"width": 28.1708984375,
 									"height": 13,
 									"alpha": -1.1259485723136051,
@@ -3520,8 +3520,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1604,
-									"top": 873,
+									"left": 1607,
+									"top": 871,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3541,8 +3541,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1569,
-									"top": 845,
+									"left": 1570,
+									"top": 846,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3562,7 +3562,7 @@
 								"$ref": "AAAAAAF+Jbfsgvf2zhs="
 							},
 							"lineStyle": 1,
-							"points": "1595:843;1567:879",
+							"points": "1596:843;1571:879",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JbjwMPiW0xc="
@@ -3655,7 +3655,7 @@
 							"tail": {
 								"$ref": "AAAAAAF967QbNCA1jOM="
 							},
-							"points": "283:136;352:136;352:208",
+							"points": "286:136;352:136;352:208",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+NTMhEUEmp5k="
@@ -3912,9 +3912,9 @@
 											"font": "Arial;13;1",
 											"left": 1781,
 											"top": 999,
-											"width": 170.32666015625,
+											"width": 188.62060546875,
 											"height": 26,
-											"text": "Archive the task in \"ID_Collok_Archive_Tasks\"",
+											"text": "Archive the reward in \"ID_Collok_Archive_Rewards\"",
 											"wordWrap": true
 										},
 										{
@@ -3946,7 +3946,7 @@
 									"font": "Arial;13;0",
 									"left": 1776,
 									"top": 992,
-									"width": 180.32666015625,
+									"width": 198.62060546875,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+QyA+JKASyK0="
@@ -3969,7 +3969,7 @@
 							"containerChangeable": true,
 							"left": 1776,
 							"top": 992,
-							"width": 180.32666015625,
+							"width": 198.62060546875,
 							"height": 54,
 							"autoResize": true,
 							"nameCompartment": {
@@ -3998,7 +3998,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1768,
+									"left": 1771,
 									"top": 946,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -4019,8 +4019,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1775,
-									"top": 933,
+									"left": 1777,
+									"top": 932,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4040,7 +4040,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1755,
+									"left": 1758,
 									"top": 973,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -4059,7 +4059,7 @@
 								"$ref": "AAAAAAF+Qx/qN5/ffnM="
 							},
 							"lineStyle": 1,
-							"points": "1714:942;1811:991",
+							"points": "1714:942;1817:991",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+QyDShaAu1SU="
@@ -4108,8 +4108,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1889,
-									"top": 1064,
+									"left": 1894,
+									"top": 1066,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -4129,8 +4129,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1904,
-									"top": 1061,
+									"left": 1909,
+									"top": 1064,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4150,8 +4150,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1860,
-									"top": 1071,
+									"left": 1865,
+									"top": 1069,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4169,7 +4169,7 @@
 								"$ref": "AAAAAAF+QyA+I6AQGys="
 							},
 							"lineStyle": 1,
-							"points": "1870:1046;1881:1103",
+							"points": "1877:1046;1883:1103",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+QyD6/qBEU2Y="
@@ -4272,7 +4272,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Check if task still exist"
+					"name": "Check if reward still exist"
 				},
 				{
 					"_type": "UMLDecisionNode",
@@ -4288,7 +4288,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Send error message \"Task_name can't be found\""
+					"name": "Send error message \"Reward_name can't be found\""
 				},
 				{
 					"_type": "UMLAction",
@@ -4654,7 +4654,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967ALdB08WQ0="
 							},
-							"name": "Clic on \"Suppress task\"",
+							"name": "Clic on \"Suppress reward\"",
 							"kind": "acceptSignal"
 						}
 					]
@@ -4689,7 +4689,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display confirmation of task removal",
+							"name": "Display confirmation of reward removal",
 							"kind": "sendSignal"
 						}
 					]
@@ -4708,7 +4708,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Remove task"
+							"name": "Remove reward"
 						}
 					]
 				},
@@ -4726,7 +4726,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Archive the task in \"ID_Collok_Archive_Tasks\""
+							"name": "Archive the reward in \"ID_Collok_Archive_Rewards\""
 						}
 					]
 				}

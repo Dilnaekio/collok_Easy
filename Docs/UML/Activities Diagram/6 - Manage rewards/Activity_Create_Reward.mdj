@@ -71,7 +71,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 544,
-									"top": 20,
+									"top": 12,
 									"width": 537,
 									"height": 13,
 									"text": "Operating System",
@@ -94,7 +94,7 @@
 							],
 							"font": "Arial;13;0",
 							"left": 544,
-							"top": 16,
+							"top": 8,
 							"width": 537,
 							"height": 1585,
 							"nameLabel": {
@@ -234,9 +234,9 @@
 											"font": "Arial;13;1",
 											"left": 221,
 											"top": 175,
-											"width": 164.07421875,
+											"width": 180.68603515625,
 											"height": 13,
-											"text": "Select \"Create a new task\""
+											"text": "Select \"Create a new reward\""
 										},
 										{
 											"_type": "LabelView",
@@ -265,7 +265,7 @@
 									"font": "Arial;13;0",
 									"left": 216,
 									"top": 168,
-									"width": 174.07421875,
+									"width": 190.68603515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96PBgUcekQ/I="
@@ -285,7 +285,7 @@
 							"containerChangeable": true,
 							"left": 216,
 							"top": 168,
-							"width": 174.07421875,
+							"width": 190.68603515625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96PBgUcej71k="
@@ -563,7 +563,7 @@
 								"$ref": "AAAAAAF96PBgUceiz9w="
 							},
 							"lineStyle": 2,
-							"points": "389:184;824:184;824:232",
+							"points": "406:184;824:184;824:232",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96Pkdycfr1s8="
@@ -992,7 +992,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -928,
-											"top": 144,
+											"top": 128,
 											"height": 13
 										},
 										{
@@ -1005,7 +1005,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;1",
 											"left": 597,
-											"top": 543,
+											"top": 535,
 											"width": 139.46435546875,
 											"height": 13,
 											"text": "Display error message"
@@ -1021,7 +1021,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -928,
-											"top": 144,
+											"top": 128,
 											"width": 142.314453125,
 											"height": 13,
 											"text": "(from Operating System)"
@@ -1037,7 +1037,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -928,
-											"top": 144,
+											"top": 128,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -1046,7 +1046,7 @@
 									"fontColor": "#ff0000",
 									"font": "Arial;13;0",
 									"left": 592,
-									"top": 536,
+									"top": 528,
 									"width": 149.46435546875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1071,7 +1071,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 592,
-							"top": 536,
+							"top": 528,
 							"width": 149.46435546875,
 							"height": 41,
 							"nameCompartment": {
@@ -1313,7 +1313,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -216,
-											"top": -72,
+											"top": -88,
 											"height": 13
 										},
 										{
@@ -1324,7 +1324,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 749,
-											"top": 607,
+											"top": 599,
 											"width": 195.76171875,
 											"height": 13,
 											"text": "Send informations to the server"
@@ -1338,7 +1338,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -216,
-											"top": -72,
+											"top": -88,
 											"width": 142.314453125,
 											"height": 13,
 											"text": "(from Operating System)"
@@ -1352,14 +1352,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -216,
-											"top": -72,
+											"top": -88,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 744,
-									"top": 600,
+									"top": 592,
 									"width": 205.76171875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1382,7 +1382,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 744,
-							"top": 600,
+							"top": 592,
 							"width": 205.76171875,
 							"height": 41,
 							"nameCompartment": {
@@ -1410,7 +1410,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 842,
-									"top": 544,
+									"top": 539,
 									"width": 18.78271484375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1433,7 +1433,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 866,
-									"top": 542,
+									"top": 537,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1454,7 +1454,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 822,
-									"top": 547,
+									"top": 544,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1472,7 +1472,7 @@
 								"$ref": "AAAAAAF96Px1fsh/XDM="
 							},
 							"lineStyle": 1,
-							"points": "831:505;843:599",
+							"points": "831:505;843:591",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96P8CVsjj8fM="
@@ -1724,9 +1724,9 @@
 											"font": "Arial;13;1",
 											"left": 1661,
 											"top": 719,
-											"width": 147.36083984375,
+											"width": 150.26806640625,
 											"height": 13,
-											"text": "Register the new task"
+											"text": "Register the new reward"
 										},
 										{
 											"_type": "LabelView",
@@ -1759,7 +1759,7 @@
 									"font": "Arial;13;0",
 									"left": 1656,
 									"top": 712,
-									"width": 157.36083984375,
+									"width": 160.26806640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96Q7ZCsnpCJU="
@@ -1782,7 +1782,7 @@
 							"containerChangeable": true,
 							"left": 1656,
 							"top": 712,
-							"width": 157.36083984375,
+							"width": 160.26806640625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96Q7ZCcnobXQ="
@@ -1831,7 +1831,7 @@
 											"top": 815,
 											"width": 78.7236328125,
 											"height": 91,
-											"text": "Send a confirmation message of the creation of the new task to the server",
+											"text": "Send a confirmation message of the creation of the new reward to the server",
 											"wordWrap": true
 										},
 										{
@@ -1975,7 +1975,7 @@
 								"$ref": "AAAAAAF96Q7ZCcnnKEc="
 							},
 							"lineStyle": 1,
-							"points": "1732:753;1728:807",
+							"points": "1733:753;1728:807",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96RBdaso3Ahs="
@@ -2212,7 +2212,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -56,
-											"top": -624,
+											"top": -640,
 											"height": 13
 										},
 										{
@@ -2223,7 +2223,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 749,
-											"top": 983,
+											"top": 975,
 											"width": 128.578125,
 											"height": 13,
 											"text": "Display confirmation"
@@ -2237,7 +2237,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -56,
-											"top": -624,
+											"top": -640,
 											"width": 142.314453125,
 											"height": 13,
 											"text": "(from Operating System)"
@@ -2251,14 +2251,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -56,
-											"top": -624,
+											"top": -640,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 744,
-									"top": 976,
+									"top": 968,
 									"width": 138.578125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2281,7 +2281,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 744,
-							"top": 976,
+							"top": 968,
 							"width": 138.578125,
 							"height": 41,
 							"nameCompartment": {
@@ -2370,7 +2370,7 @@
 								"$ref": "AAAAAAF96RCxeMpJWoc="
 							},
 							"lineStyle": 2,
-							"points": "1288:920;812:920;812:976",
+							"points": "1288:920;812:920;812:968",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96RJdlcqW7bo="
@@ -2404,7 +2404,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 826,
-									"top": 1029,
+									"top": 1021,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2425,7 +2425,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 841,
-									"top": 1029,
+									"top": 1021,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2446,7 +2446,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 797,
-									"top": 1030,
+									"top": 1022,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2464,7 +2464,7 @@
 								"$ref": "AAAAAAF96RHx98p6tiU="
 							},
 							"lineStyle": 1,
-							"points": "812:1017;812:1055",
+							"points": "812:1009;812:1047",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96RLN68qv1YI="
@@ -2497,8 +2497,8 @@
 									},
 									"fontColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 727,
-									"top": 479,
+									"left": 729,
+									"top": 474,
 									"width": 28.1708984375,
 									"height": 13,
 									"alpha": -1.5524501357427751,
@@ -2520,8 +2520,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 767,
-									"top": 535,
+									"left": 769,
+									"top": 530,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2541,8 +2541,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 748,
-									"top": 494,
+									"left": 750,
+									"top": 489,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2561,7 +2561,7 @@
 								"$ref": "AAAAAAF96Px1fsh/XDM="
 							},
 							"lineStyle": 1,
-							"points": "799:494;711:535",
+							"points": "799:492;716:527",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JZobvqUHcTY="
@@ -2588,7 +2588,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 800,
-							"top": 1056,
+							"top": 1048,
 							"width": 26,
 							"height": 26
 						},
@@ -2703,7 +2703,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Select \"Create a new task\"",
+					"name": "Select \"Create a new reward\"",
 					"kind": "acceptSignal"
 				},
 				{
@@ -2744,7 +2744,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Send a confirmation message of the creation of the new task to the server"
+					"name": "Send a confirmation message of the creation of the new reward to the server"
 				},
 				{
 					"_type": "UMLAction",
@@ -3027,7 +3027,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF96OsJ28eJkyc="
 							},
-							"name": "Register the new task"
+							"name": "Register the new reward"
 						}
 					]
 				}

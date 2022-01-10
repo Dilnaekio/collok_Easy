@@ -251,9 +251,9 @@
 											"font": "Arial;13;1",
 											"left": 269,
 											"top": 143,
-											"width": 137.2744140625,
+											"width": 145.98974609375,
 											"height": 13,
-											"text": "Select \"Show a task\""
+											"text": "Select \"Show a reward\""
 										},
 										{
 											"_type": "LabelView",
@@ -286,7 +286,7 @@
 									"font": "Arial;13;0",
 									"left": 264,
 									"top": 136,
-									"width": 147.2744140625,
+									"width": 155.98974609375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+hOYiJmWwY="
@@ -309,7 +309,7 @@
 							"containerChangeable": true,
 							"left": 264,
 							"top": 136,
-							"width": 147.2744140625,
+							"width": 155.98974609375,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+hOYiJlW84="
@@ -356,9 +356,9 @@
 											"font": "Arial;13;1",
 											"left": 645,
 											"top": 223,
-											"width": 237.6943359375,
+											"width": 240.6015625,
 											"height": 13,
-											"text": "Ask a request for tasks list to server"
+											"text": "Ask a request for rewards list to server"
 										},
 										{
 											"_type": "LabelView",
@@ -391,7 +391,7 @@
 									"font": "Arial;13;0",
 									"left": 640,
 									"top": 216,
-									"width": 247.6943359375,
+									"width": 250.6015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+nYdiKEwOA="
@@ -411,7 +411,7 @@
 							"containerChangeable": true,
 							"left": 640,
 							"top": 216,
-							"width": 247.6943359375,
+							"width": 250.6015625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+nYdiKDKW8="
@@ -458,9 +458,9 @@
 											"font": "Arial;13;1",
 											"left": 1237,
 											"top": 295,
-											"width": 247.787109375,
+											"width": 270.1943359375,
 											"height": 13,
-											"text": "Ask a request for task infos to database"
+											"text": "Ask a request for reward infos to database"
 										},
 										{
 											"_type": "LabelView",
@@ -493,7 +493,7 @@
 									"font": "Arial;13;0",
 									"left": 1232,
 									"top": 288,
-									"width": 257.787109375,
+									"width": 280.1943359375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+pqUyKg6z8="
@@ -513,7 +513,7 @@
 							"containerChangeable": true,
 							"left": 1232,
 							"top": 288,
-							"width": 257.787109375,
+							"width": 280.1943359375,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+pqUyKf7wY="
@@ -601,7 +601,7 @@
 								"$ref": "AAAAAAF96+hOYSJk+OI="
 							},
 							"lineStyle": 2,
-							"points": "410:160;776:160;776:216",
+							"points": "419:160;776:160;776:216",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96+tB6yLVT8k="
@@ -695,7 +695,7 @@
 								"$ref": "AAAAAAF96+nYdSKCjqo="
 							},
 							"lineStyle": 2,
-							"points": "887:232;1360:232;1360:288",
+							"points": "890:232;1360:232;1360:288",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96+t5oyLpuxg="
@@ -748,9 +748,9 @@
 											"font": "Arial;13;1",
 											"left": 1837,
 											"top": 687,
-											"width": 115.552734375,
+											"width": 125.68994140625,
 											"height": 13,
-											"text": "Get the task infos"
+											"text": "Get the reward infos"
 										},
 										{
 											"_type": "LabelView",
@@ -783,7 +783,7 @@
 									"font": "Arial;13;0",
 									"left": 1832,
 									"top": 680,
-									"width": 125.552734375,
+									"width": 135.68994140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+r4MyK8wg8="
@@ -806,7 +806,7 @@
 							"containerChangeable": true,
 							"left": 1832,
 							"top": 680,
-							"width": 125.552734375,
+							"width": 135.68994140625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+r4MyK70Kw="
@@ -1527,7 +1527,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1907,
+									"left": 1909,
 									"top": 754,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1548,8 +1548,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1922,
-									"top": 754,
+									"left": 1924,
+									"top": 755,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1569,7 +1569,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1878,
+									"left": 1880,
 									"top": 753,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1588,7 +1588,7 @@
 								"$ref": "AAAAAAF96+r4MyK6PXk="
 							},
 							"lineStyle": 1,
-							"points": "1894:721;1892:799",
+							"points": "1898:721;1893:799",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+NQ8YLlnq8kk="
@@ -1959,7 +1959,7 @@
 											"top": 519,
 											"width": 68.29443359375,
 											"height": 65,
-											"text": "Send error message \"Can't find the task requested\"",
+											"text": "Send error message \"Can't find the reward requested\"",
 											"wordWrap": true
 										},
 										{
@@ -2075,7 +2075,7 @@
 											"top": 367,
 											"width": 192.130859375,
 											"height": 13,
-											"text": "Check if the task still exist"
+											"text": "Check if the reward still exist"
 										},
 										{
 											"_type": "LabelView",
@@ -2237,7 +2237,7 @@
 							"tail": {
 								"$ref": "AAAAAAF96+pqUyKe37g="
 							},
-							"points": "1489:304;1824:304;1824:360",
+							"points": "1511:304;1824:304;1824:360",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+NRBWMFo5Klg="
@@ -2407,8 +2407,8 @@
 										"$ref": "AAAAAAF+NRDrrVpUuQ4="
 									},
 									"font": "Arial;13;0",
-									"left": 1876,
-									"top": 568,
+									"left": 1879,
+									"top": 567,
 									"width": 18.78271484375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2430,8 +2430,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1900,
-									"top": 565,
+									"left": 1903,
+									"top": 564,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2451,8 +2451,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1856,
-									"top": 573,
+									"left": 1859,
+									"top": 574,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2470,7 +2470,7 @@
 								"$ref": "AAAAAAF+JaJqdW9sgBA="
 							},
 							"lineStyle": 1,
-							"points": "1853:475;1890:679",
+							"points": "1853:475;1895:679",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+NRDrrVpWDco="
@@ -2523,9 +2523,9 @@
 											"font": "Arial;13;1",
 											"left": 973,
 											"top": 951,
-											"width": 158.92626953125,
+											"width": 175.5380859375,
 											"height": 13,
-											"text": "Display task with its infos"
+											"text": "Display reward with its infos"
 										},
 										{
 											"_type": "LabelView",
@@ -2558,7 +2558,7 @@
 									"font": "Arial;13;0",
 									"left": 968,
 									"top": 944,
-									"width": 168.92626953125,
+									"width": 185.5380859375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+NRE5J1pryw4="
@@ -2578,7 +2578,7 @@
 							"containerChangeable": true,
 							"left": 968,
 							"top": 944,
-							"width": 168.92626953125,
+							"width": 185.5380859375,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+NRE5J1pqsPM="
@@ -2714,8 +2714,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1070,
-									"top": 1016,
+									"left": 1074,
+									"top": 1017,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2735,8 +2735,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1085,
-									"top": 1015,
+									"left": 1089,
+									"top": 1017,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2756,8 +2756,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1041,
-									"top": 1019,
+									"left": 1045,
+									"top": 1018,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2775,7 +2775,7 @@
 								"$ref": "AAAAAAF+NRE5Jlppsc4="
 							},
 							"lineStyle": 1,
-							"points": "1053:985;1059:1063",
+							"points": "1060:985;1060:1063",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+NRHxa1qfUlM="
@@ -2797,7 +2797,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Ask a request for tasks list to server"
+					"name": "Ask a request for rewards list to server"
 				},
 				{
 					"_type": "UMLAction",
@@ -2805,7 +2805,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Ask a request for task infos to database"
+					"name": "Ask a request for reward infos to database"
 				},
 				{
 					"_type": "UMLAction",
@@ -2829,7 +2829,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Display task with its infos",
+					"name": "Display reward with its infos",
 					"kind": "sendSignal"
 				},
 				{
@@ -3043,7 +3043,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967ALdB08WQ0="
 							},
-							"name": "Select \"Show a task\"",
+							"name": "Select \"Show a reward\"",
 							"kind": "acceptSignal"
 						}
 					]
@@ -3113,7 +3113,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Get the task infos"
+							"name": "Get the reward infos"
 						},
 						{
 							"_type": "UMLAction",
@@ -3129,7 +3129,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Send error message \"Can't find the task requested\""
+							"name": "Send error message \"Can't find the reward requested\""
 						},
 						{
 							"_type": "UMLAction",
@@ -3137,7 +3137,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Check if the task still exist"
+							"name": "Check if the reward still exist"
 						},
 						{
 							"_type": "UMLDecisionNode",

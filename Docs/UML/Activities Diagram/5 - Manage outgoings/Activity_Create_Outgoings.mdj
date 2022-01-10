@@ -234,9 +234,9 @@
 											"font": "Arial;13;1",
 											"left": 221,
 											"top": 175,
-											"width": 164.07421875,
+											"width": 193.6416015625,
 											"height": 13,
-											"text": "Select \"Create a new task\""
+											"text": "Select \"Create a new outgoing\""
 										},
 										{
 											"_type": "LabelView",
@@ -265,7 +265,7 @@
 									"font": "Arial;13;0",
 									"left": 216,
 									"top": 168,
-									"width": 174.07421875,
+									"width": 203.6416015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96PBgUcekQ/I="
@@ -285,7 +285,7 @@
 							"containerChangeable": true,
 							"left": 216,
 							"top": 168,
-							"width": 174.07421875,
+							"width": 203.6416015625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96PBgUcej71k="
@@ -563,7 +563,7 @@
 								"$ref": "AAAAAAF96PBgUceiz9w="
 							},
 							"lineStyle": 2,
-							"points": "389:184;824:184;824:232",
+							"points": "419:184;824:184;824:232",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96Pkdycfr1s8="
@@ -1724,9 +1724,9 @@
 											"font": "Arial;13;1",
 											"left": 1661,
 											"top": 719,
-											"width": 147.36083984375,
+											"width": 163.2236328125,
 											"height": 13,
-											"text": "Register the new task"
+											"text": "Register the new outgoing"
 										},
 										{
 											"_type": "LabelView",
@@ -1759,7 +1759,7 @@
 									"font": "Arial;13;0",
 									"left": 1656,
 									"top": 712,
-									"width": 157.36083984375,
+									"width": 173.2236328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96Q7ZCsnpCJU="
@@ -1782,7 +1782,7 @@
 							"containerChangeable": true,
 							"left": 1656,
 							"top": 712,
-							"width": 157.36083984375,
+							"width": 173.2236328125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96Q7ZCcnobXQ="
@@ -1831,7 +1831,7 @@
 											"top": 815,
 											"width": 78.7236328125,
 											"height": 91,
-											"text": "Send a confirmation message of the creation of the new task to the server",
+											"text": "Send a confirmation message of the creation of the new outgoing to the server",
 											"wordWrap": true
 										},
 										{
@@ -1914,8 +1914,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1744,
-									"top": 775,
+									"left": 1749,
+									"top": 776,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1935,8 +1935,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1759,
-									"top": 776,
+									"left": 1764,
+									"top": 778,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1956,8 +1956,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1715,
-									"top": 772,
+									"left": 1720,
+									"top": 771,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1975,7 +1975,7 @@
 								"$ref": "AAAAAAF96Q7ZCcnnKEc="
 							},
 							"lineStyle": 1,
-							"points": "1732:753;1728:807",
+							"points": "1739:753;1731:807",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96RBdaso3Ahs="
@@ -2703,7 +2703,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Select \"Create a new task\"",
+					"name": "Select \"Create a new outgoing\"",
 					"kind": "acceptSignal"
 				},
 				{
@@ -2744,7 +2744,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Send a confirmation message of the creation of the new task to the server"
+					"name": "Send a confirmation message of the creation of the new outgoing to the server"
 				},
 				{
 					"_type": "UMLAction",
@@ -3027,7 +3027,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF96OsJ28eJkyc="
 							},
-							"name": "Register the new task"
+							"name": "Register the new outgoing"
 						}
 					]
 				}
