@@ -106,7 +106,7 @@
 									"$ref": "AAAAAAF+JMPJjZZqYXA="
 								},
 								{
-									"$ref": "AAAAAAF+WPjeo6kITGw="
+									"$ref": "AAAAAAF+WPglau0i7NE="
 								}
 							],
 							"font": "Arial;13;0",
@@ -261,7 +261,7 @@
 											"top": 151,
 											"width": 343.33203125,
 											"height": 13,
-											"text": "Select \"Edit message\""
+											"text": "Select \"Edit question\""
 										},
 										{
 											"_type": "LabelView",
@@ -456,7 +456,7 @@
 											"top": 215,
 											"width": 62.130859375,
 											"height": 65,
-											"text": "Display precedent message into a text area",
+											"text": "Display precedent question into a help form",
 											"wordWrap": true
 										},
 										{
@@ -770,7 +770,7 @@
 											"top": 599,
 											"width": 55.64990234375,
 											"height": 91,
-											"text": "Display error message \"A message can't be empty\"",
+											"text": "Display error message \"A question can't be empty\"",
 											"wordWrap": true
 										},
 										{
@@ -864,11 +864,11 @@
 									},
 									"font": "Arial;13;0",
 									"left": 770,
-									"top": 464,
+									"top": 440,
 									"width": 137.26806640625,
 									"height": 13,
-									"alpha": 1.4500847704239617,
-									"distance": 87.02298546935747,
+									"alpha": 1.7321712264674343,
+									"distance": 87.13208364316786,
 									"hostEdge": {
 										"$ref": "AAAAAAF+JMR9G5aitl4="
 									},
@@ -1360,7 +1360,7 @@
 											"top": 911,
 											"width": 317.12255859375,
 											"height": 13,
-											"text": "Check if message still exist"
+											"text": "Check if question still exist"
 										},
 										{
 											"_type": "LabelView",
@@ -1557,9 +1557,9 @@
 											"font": "Arial;13;1",
 											"left": 1397,
 											"top": 1135,
-											"width": 80.59619140625,
+											"width": 79.11083984375,
 											"height": 52,
-											"text": "Send error message \"id_message not found\"",
+											"text": "Send error message \"id_question not found\"",
 											"wordWrap": true
 										},
 										{
@@ -1599,7 +1599,7 @@
 									"font": "Arial;13;0",
 									"left": 1392,
 									"top": 1128,
-									"width": 90.59619140625,
+									"width": 89.11083984375,
 									"height": 64,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JMd0KpdQ2Yo="
@@ -1624,7 +1624,7 @@
 							"containerChangeable": true,
 							"left": 1392,
 							"top": 1128,
-							"width": 90.59619140625,
+							"width": 89.11083984375,
 							"height": 80,
 							"autoResize": true,
 							"nameCompartment": {
@@ -1986,8 +1986,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": -4832,
+											"left": 128,
+											"top": -4848,
 											"height": 13
 										},
 										{
@@ -1997,11 +1997,11 @@
 												"$ref": "AAAAAAF+JMqvmpgUxiM="
 											},
 											"font": "Arial;13;1",
-											"left": 1893,
-											"top": 1247,
-											"width": 194.35888671875,
+											"left": 1885,
+											"top": 1239,
+											"width": 192.87353515625,
 											"height": 13,
-											"text": "Register changes to a message"
+											"text": "Register changes to a question"
 										},
 										{
 											"_type": "LabelView",
@@ -2011,8 +2011,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": -4832,
+											"left": 128,
+											"top": -4848,
 											"width": 86.6708984375,
 											"height": 13,
 											"text": "(from Activity1)"
@@ -2025,16 +2025,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": -4832,
+											"left": 128,
+											"top": -4848,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1888,
-									"top": 1240,
-									"width": 204.35888671875,
+									"left": 1880,
+									"top": 1232,
+									"width": 202.87353515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JMqvmpgVHOE="
@@ -2052,9 +2052,9 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1888,
-							"top": 1240,
-							"width": 204.35888671875,
+							"left": 1880,
+							"top": 1232,
+							"width": 202.87353515625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+JMqvmpgUxiM="
@@ -2142,7 +2142,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+JMfLT5drmJ8="
 							},
-							"points": "1526:1080;1984:1080;1984:1240",
+							"points": "1526:1080;1984:1080;1984:1232",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JMraz5gtwwI="
@@ -2468,8 +2468,8 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1008,
-							"top": 1704,
+							"left": 1024,
+							"top": 1752,
 							"width": 26,
 							"height": 26
 						},
@@ -2621,7 +2621,7 @@
 											"top": 375,
 											"width": 228.29345703125,
 											"height": 13,
-											"text": "Check if it had more than 0 character"
+											"text": "Check if fields are completed"
 										},
 										{
 											"_type": "LabelView",
@@ -3046,7 +3046,7 @@
 											"top": 991,
 											"width": 158.9453125,
 											"height": 13,
-											"text": "Get the message targeted"
+											"text": "Get the question targeted"
 										},
 										{
 											"_type": "LabelView",
@@ -3463,7 +3463,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+JMqvmpgTxbA="
 							},
-							"points": "1888:1264;1672:1264;1672:1496",
+							"points": "1880:1264;1672:1264;1672:1496",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+WK4CLId2s4M="
@@ -3477,93 +3477,93 @@
 						},
 						{
 							"_type": "UMLActionView",
-							"_id": "AAAAAAF+WPjeo6kITGw=",
+							"_id": "AAAAAAF+WPglau0i7NE=",
 							"_parent": {
 								"$ref": "AAAAAAF966WU3x041Nc="
 							},
 							"model": {
-								"$ref": "AAAAAAF+WPjeoqkGh+E="
+								"$ref": "AAAAAAF+WPglau0gahI="
 							},
 							"subViews": [
 								{
 									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAF+WPjeo6kJ+vE=",
+									"_id": "AAAAAAF+WPgla+0j2xw=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPjeo6kITGw="
+										"$ref": "AAAAAAF+WPglau0i7NE="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPjeoqkGh+E="
+										"$ref": "AAAAAAF+WPglau0gahI="
 									},
 									"subViews": [
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF+WPjeo6kKhF4=",
+											"_id": "AAAAAAF+WPgla+0k4hg=",
 											"_parent": {
-												"$ref": "AAAAAAF+WPjeo6kJ+vE="
+												"$ref": "AAAAAAF+WPgla+0j2xw="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -336,
-											"top": 48,
+											"left": -192,
+											"top": -192,
 											"height": 13
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF+WPjeo6kLWH8=",
+											"_id": "AAAAAAF+WPgla+0ltWY=",
 											"_parent": {
-												"$ref": "AAAAAAF+WPjeo6kJ+vE="
+												"$ref": "AAAAAAF+WPgla+0j2xw="
 											},
 											"font": "Arial;13;1",
-											"left": 925,
-											"top": 1631,
+											"left": 941,
+											"top": 1639,
 											"width": 186.392578125,
 											"height": 13,
-											"text": "Display the modified message"
+											"text": "Display the modified question"
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF+WPjeo6kMyfs=",
+											"_id": "AAAAAAF+WPgla+0mHwM=",
 											"_parent": {
-												"$ref": "AAAAAAF+WPjeo6kJ+vE="
+												"$ref": "AAAAAAF+WPgla+0j2xw="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -336,
-											"top": 48,
+											"left": -192,
+											"top": -192,
 											"width": 142.314453125,
 											"height": 13,
 											"text": "(from Operating System)"
 										},
 										{
 											"_type": "LabelView",
-											"_id": "AAAAAAF+WPjeo6kN9Dw=",
+											"_id": "AAAAAAF+WPgla+0nxqg=",
 											"_parent": {
-												"$ref": "AAAAAAF+WPjeo6kJ+vE="
+												"$ref": "AAAAAAF+WPgla+0j2xw="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -336,
-											"top": 48,
+											"left": -192,
+											"top": -192,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 920,
-									"top": 1624,
+									"left": 936,
+									"top": 1632,
 									"width": 196.392578125,
 									"height": 25,
 									"stereotypeLabel": {
-										"$ref": "AAAAAAF+WPjeo6kKhF4="
+										"$ref": "AAAAAAF+WPgla+0k4hg="
 									},
 									"nameLabel": {
-										"$ref": "AAAAAAF+WPjeo6kLWH8="
+										"$ref": "AAAAAAF+WPgla+0ltWY="
 									},
 									"namespaceLabel": {
-										"$ref": "AAAAAAF+WPjeo6kMyfs="
+										"$ref": "AAAAAAF+WPgla+0mHwM="
 									},
 									"propertyLabel": {
-										"$ref": "AAAAAAF+WPjeo6kN9Dw="
+										"$ref": "AAAAAAF+WPgla+0nxqg="
 									}
 								}
 							],
@@ -3572,177 +3572,177 @@
 							},
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 920,
-							"top": 1624,
+							"left": 936,
+							"top": 1632,
 							"width": 196.392578125,
 							"height": 41,
 							"nameCompartment": {
-								"$ref": "AAAAAAF+WPjeo6kJ+vE="
+								"$ref": "AAAAAAF+WPgla+0j2xw="
 							}
 						},
 						{
 							"_type": "UMLControlFlowView",
-							"_id": "AAAAAAF+WPktiqklJhI=",
+							"_id": "AAAAAAF+WPhtlu0++O8=",
 							"_parent": {
 								"$ref": "AAAAAAF966WU3x041Nc="
 							},
 							"model": {
-								"$ref": "AAAAAAF+WPktiqkkb8o="
+								"$ref": "AAAAAAF+WPhtlu09stk="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPktiqkmKiw=",
+									"_id": "AAAAAAF+WPhtlu0/SrE=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPktiqkkb8o="
+										"$ref": "AAAAAAF+WPhtlu09stk="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1044,
-									"top": 1601,
+									"left": 1049,
+									"top": 1605,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPktiqknDbc=",
+									"_id": "AAAAAAF+WPhtlu1As3s=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPktiqkkb8o="
+										"$ref": "AAAAAAF+WPhtlu09stk="
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1059,
-									"top": 1601,
+									"left": 1064,
+									"top": 1605,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPktiqkoEjg=",
+									"_id": "AAAAAAF+WPhtlu1BeAk=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPktiqkkb8o="
+										"$ref": "AAAAAAF+WPhtlu09stk="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1015,
-									"top": 1602,
+									"left": 1020,
+									"top": 1606,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPktiqklJhI="
+										"$ref": "AAAAAAF+WPhtlu0++O8="
 									},
 									"edgePosition": 1
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAF+WPjeo6kITGw="
+								"$ref": "AAAAAAF+WPglau0i7NE="
 							},
 							"tail": {
 								"$ref": "AAAAAAF+JM4/IJibKUw="
 							},
-							"points": "1030:1592;1030:1624",
+							"points": "1035:1592;1035:1632",
 							"showVisibility": true,
 							"nameLabel": {
-								"$ref": "AAAAAAF+WPktiqkmKiw="
+								"$ref": "AAAAAAF+WPhtlu0/SrE="
 							},
 							"stereotypeLabel": {
-								"$ref": "AAAAAAF+WPktiqknDbc="
+								"$ref": "AAAAAAF+WPhtlu1As3s="
 							},
 							"propertyLabel": {
-								"$ref": "AAAAAAF+WPktiqkoEjg="
+								"$ref": "AAAAAAF+WPhtlu1BeAk="
 							}
 						},
 						{
 							"_type": "UMLControlFlowView",
-							"_id": "AAAAAAF+WPk4Zak2dbg=",
+							"_id": "AAAAAAF+WPh6W+1PIko=",
 							"_parent": {
 								"$ref": "AAAAAAF966WU3x041Nc="
 							},
 							"model": {
-								"$ref": "AAAAAAF+WPk4Zak1NNs="
+								"$ref": "AAAAAAF+WPh6W+1OPSc="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPk4Zak3NDA=",
+									"_id": "AAAAAAF+WPh6W+1Qzn4=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPk4Zak1NNs="
+										"$ref": "AAAAAAF+WPh6W+1OPSc="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1032,
-									"top": 1677,
+									"left": 1048,
+									"top": 1705,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPk4Zak43ww=",
+									"_id": "AAAAAAF+WPh6W+1RW2I=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPk4Zak1NNs="
+										"$ref": "AAAAAAF+WPh6W+1OPSc="
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1047,
-									"top": 1677,
+									"left": 1063,
+									"top": 1705,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF+WPk4Zak5Uk8=",
+									"_id": "AAAAAAF+WPh6W+1SK+Y=",
 									"_parent": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"model": {
-										"$ref": "AAAAAAF+WPk4Zak1NNs="
+										"$ref": "AAAAAAF+WPh6W+1OPSc="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1003,
-									"top": 1678,
+									"left": 1019,
+									"top": 1706,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF+WPk4Zak2dbg="
+										"$ref": "AAAAAAF+WPh6W+1PIko="
 									},
 									"edgePosition": 1
 								}
@@ -3752,18 +3752,18 @@
 								"$ref": "AAAAAAF+JM53WZi2TDk="
 							},
 							"tail": {
-								"$ref": "AAAAAAF+WPjeo6kITGw="
+								"$ref": "AAAAAAF+WPglau0i7NE="
 							},
-							"points": "1018:1664;1018:1704",
+							"points": "1034:1672;1034:1752",
 							"showVisibility": true,
 							"nameLabel": {
-								"$ref": "AAAAAAF+WPk4Zak3NDA="
+								"$ref": "AAAAAAF+WPh6W+1Qzn4="
 							},
 							"stereotypeLabel": {
-								"$ref": "AAAAAAF+WPk4Zak43ww="
+								"$ref": "AAAAAAF+WPh6W+1RW2I="
 							},
 							"propertyLabel": {
-								"$ref": "AAAAAAF+WPk4Zak5Uk8="
+								"$ref": "AAAAAAF+WPh6W+1SK+Y="
 							}
 						}
 					]
@@ -3776,7 +3776,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Select \"Edit message\"",
+					"name": "Select \"Edit question\"",
 					"kind": "acceptSignal"
 				},
 				{
@@ -3793,7 +3793,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Check if message still exist"
+					"name": "Check if question still exist"
 				},
 				{
 					"_type": "UMLAction",
@@ -3818,7 +3818,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Register changes to a message"
+					"name": "Register changes to a question"
 				},
 				{
 					"_type": "UMLAction",
@@ -3834,7 +3834,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Get the message targeted"
+					"name": "Get the question targeted"
 				}
 			],
 			"edges": [
@@ -4080,7 +4080,7 @@
 				},
 				{
 					"_type": "UMLControlFlow",
-					"_id": "AAAAAAF+WPktiqkkb8o=",
+					"_id": "AAAAAAF+WPhtlu09stk=",
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
@@ -4088,17 +4088,17 @@
 						"$ref": "AAAAAAF+JM4/IJiZz8U="
 					},
 					"target": {
-						"$ref": "AAAAAAF+WPjeoqkGh+E="
+						"$ref": "AAAAAAF+WPglau0gahI="
 					}
 				},
 				{
 					"_type": "UMLControlFlow",
-					"_id": "AAAAAAF+WPk4Zak1NNs=",
+					"_id": "AAAAAAF+WPh6W+1OPSc=",
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
 					"source": {
-						"$ref": "AAAAAAF+WPjeoqkGh+E="
+						"$ref": "AAAAAAF+WPglau0gahI="
 					},
 					"target": {
 						"$ref": "AAAAAAF+JM53WZi0twY="
@@ -4146,7 +4146,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display precedent message into a text area"
+							"name": "Display precedent question into a help form"
 						},
 						{
 							"_type": "UMLAction",
@@ -4154,7 +4154,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display error message \"A message can't be empty\"",
+							"name": "Display error message \"A question can't be empty\"",
 							"kind": "sendSignal"
 						},
 						{
@@ -4180,7 +4180,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Check if it had more than 0 character"
+							"name": "Check if fields are completed"
 						},
 						{
 							"_type": "UMLAction",
@@ -4192,11 +4192,11 @@
 						},
 						{
 							"_type": "UMLAction",
-							"_id": "AAAAAAF+WPjeoqkGh+E=",
+							"_id": "AAAAAAF+WPglau0gahI=",
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display the modified message",
+							"name": "Display the modified question",
 							"kind": "sendSignal"
 						}
 					]
@@ -4233,7 +4233,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Send error message \"id_message not found\""
+							"name": "Send error message \"id_question not found\""
 						},
 						{
 							"_type": "UMLDecisionNode",

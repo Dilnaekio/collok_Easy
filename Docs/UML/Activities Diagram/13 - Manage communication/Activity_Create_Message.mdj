@@ -234,9 +234,9 @@
 											"font": "Arial;13;1",
 											"left": 221,
 											"top": 175,
-											"width": 164.07421875,
+											"width": 175.626953125,
 											"height": 13,
-											"text": "Select \"Send message\""
+											"text": "Select \"Send a message\""
 										},
 										{
 											"_type": "LabelView",
@@ -265,7 +265,7 @@
 									"font": "Arial;13;0",
 									"left": 216,
 									"top": 168,
-									"width": 174.07421875,
+									"width": 185.626953125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96PBgUcekQ/I="
@@ -285,7 +285,7 @@
 							"containerChangeable": true,
 							"left": 216,
 							"top": 168,
-							"width": 174.07421875,
+							"width": 185.626953125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96PBgUcej71k="
@@ -563,7 +563,7 @@
 								"$ref": "AAAAAAF96PBgUceiz9w="
 							},
 							"lineStyle": 2,
-							"points": "389:184;824:184;824:232",
+							"points": "401:184;824:184;824:232",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96Pkdycfr1s8="
@@ -616,7 +616,7 @@
 											"top": 303,
 											"width": 96.79541015625,
 											"height": 13,
-											"text": "Type some text"
+											"text": "Write some text"
 										},
 										{
 											"_type": "LabelView",
@@ -2496,15 +2496,6 @@
 				},
 				{
 					"_type": "UMLAction",
-					"_id": "AAAAAAF96PBgUceg/pc=",
-					"_parent": {
-						"$ref": "AAAAAAF96Okxo8dSfUA="
-					},
-					"name": "Select \"Send message\"",
-					"kind": "acceptSignal"
-				},
-				{
-					"_type": "UMLAction",
 					"_id": "AAAAAAF96PHNWMfPfxY=",
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
@@ -2517,7 +2508,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
-					"name": "Type some text"
+					"name": "Write some text"
 				},
 				{
 					"_type": "UMLAction",
@@ -2542,6 +2533,15 @@
 						"$ref": "AAAAAAF96Okxo8dSfUA="
 					},
 					"name": "Send confirmation message to the OS"
+				},
+				{
+					"_type": "UMLAction",
+					"_id": "AAAAAAF96PBgUceg/pc=",
+					"_parent": {
+						"$ref": "AAAAAAF96Okxo8dSfUA="
+					},
+					"name": "Select \"Send a message\"",
+					"kind": "acceptSignal"
 				}
 			],
 			"edges": [

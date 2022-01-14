@@ -259,9 +259,9 @@
 											"font": "Arial;13;1",
 											"left": 269,
 											"top": 143,
-											"width": 140.16259765625,
+											"width": 153.93701171875,
 											"height": 13,
-											"text": "Select display account"
+											"text": "Select \"Display account\""
 										},
 										{
 											"_type": "LabelView",
@@ -294,7 +294,7 @@
 									"font": "Arial;13;0",
 									"left": 264,
 									"top": 136,
-									"width": 150.16259765625,
+									"width": 163.93701171875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+hOYiJmWwY="
@@ -317,7 +317,7 @@
 							"containerChangeable": true,
 							"left": 264,
 							"top": 136,
-							"width": 150.16259765625,
+							"width": 163.93701171875,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+hOYiJlW84="
@@ -364,9 +364,9 @@
 											"font": "Arial;13;1",
 											"left": 645,
 											"top": 223,
-											"width": 247.8125,
+											"width": 274.5361328125,
 											"height": 13,
-											"text": "Ask a request for accounts list to server"
+											"text": "Ask a request for a list of accounts to server"
 										},
 										{
 											"_type": "LabelView",
@@ -399,7 +399,7 @@
 									"font": "Arial;13;0",
 									"left": 640,
 									"top": 216,
-									"width": 257.8125,
+									"width": 284.5361328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF96+nYdiKEwOA="
@@ -419,7 +419,7 @@
 							"containerChangeable": true,
 							"left": 640,
 							"top": 216,
-							"width": 257.8125,
+							"width": 284.5361328125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF96+nYdiKDKW8="
@@ -609,7 +609,7 @@
 								"$ref": "AAAAAAF96+hOYSJk+OI="
 							},
 							"lineStyle": 2,
-							"points": "413:160;776:160;776:216",
+							"points": "427:160;776:160;776:216",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96+tB6yLVT8k="
@@ -703,7 +703,7 @@
 								"$ref": "AAAAAAF96+nYdSKCjqo="
 							},
 							"lineStyle": 2,
-							"points": "897:232;1360:232;1360:288",
+							"points": "924:232;1360:232;1360:288",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF96+t5oyLpuxg="
@@ -1569,7 +1569,7 @@
 											"top": 359,
 											"width": 120.630859375,
 											"height": 13,
-											"text": "Get the account list"
+											"text": "Get the list"
 										},
 										{
 											"_type": "LabelView",
@@ -3608,9 +3608,9 @@
 											"font": "Arial;13;1",
 											"left": 1509,
 											"top": 1311,
-											"width": 68.29443359375,
+											"width": 68.62451171875,
 											"height": 78,
-											"text": "Send error message \"Can't find the account requested\"",
+											"text": "Send error message \"Can't find the id_account requested\"",
 											"wordWrap": true
 										},
 										{
@@ -3650,7 +3650,7 @@
 									"font": "Arial;13;0",
 									"left": 1504,
 									"top": 1304,
-									"width": 78.29443359375,
+									"width": 78.62451171875,
 									"height": 90,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JaKNj29ztvY="
@@ -3675,7 +3675,7 @@
 							"containerChangeable": true,
 							"left": 1504,
 							"top": 1304,
-							"width": 78.29443359375,
+							"width": 78.62451171875,
 							"height": 106,
 							"autoResize": true,
 							"nameCompartment": {
@@ -3870,6 +3870,7 @@
 									"edgePosition": 1
 								}
 							],
+							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
 							"head": {
 								"$ref": "AAAAAAF+JaUgCHAo4Ns="
@@ -3910,7 +3911,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1367,
+									"left": 1359,
 									"top": 369,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3931,7 +3932,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1382,
+									"left": 1374,
 									"top": 369,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3952,7 +3953,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1337,
+									"left": 1329,
 									"top": 370,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3970,7 +3971,7 @@
 							"tail": {
 								"$ref": "AAAAAAF96+r4MyK6PXk="
 							},
-							"points": "1776:376;1352:376;1352:536",
+							"points": "1776:376;1344:376;1344:536",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+WM4NUOeR5ao="
@@ -4191,7 +4192,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Ask a request for accounts list to server"
+					"name": "Ask a request for a list of accounts to server"
 				},
 				{
 					"_type": "UMLAction",
@@ -4584,7 +4585,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967ALdB08WQ0="
 							},
-							"name": "Select display account",
+							"name": "Select \"Display account\"",
 							"kind": "acceptSignal"
 						}
 					]
@@ -4670,7 +4671,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Send error message \"Can't find the account requested\""
+							"name": "Send error message \"Can't find the id_account requested\""
 						},
 						{
 							"_type": "UMLDecisionNode",
@@ -4704,7 +4705,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Get the account list"
+							"name": "Get the list"
 						}
 					]
 				}

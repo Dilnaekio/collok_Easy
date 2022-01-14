@@ -1257,9 +1257,9 @@
 											"font": "Arial;13;1",
 											"left": 357,
 											"top": 199,
-											"width": 205.14990234375,
+											"width": 221.03173828125,
 											"height": 13,
-											"text": "Send a request to get profiles list"
+											"text": "Send a request to get list of profiles"
 										},
 										{
 											"_type": "LabelView",
@@ -1288,7 +1288,7 @@
 									"font": "Arial;13;0",
 									"left": 352,
 									"top": 192,
-									"width": 215.14990234375,
+									"width": 231.03173828125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+Jaw15fUVpaQ="
@@ -1308,7 +1308,7 @@
 							"containerChangeable": true,
 							"left": 352,
 							"top": 192,
-							"width": 215.14990234375,
+							"width": 231.03173828125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+Jaw15fUUkS0="
@@ -1584,7 +1584,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+Jaw15fUTj14="
 							},
-							"points": "566:208;936:208;936:256",
+							"points": "582:208;936:208;936:256",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+Ja3z1fWMDWg="
@@ -1635,9 +1635,9 @@
 											"font": "Arial;13;1",
 											"left": 1525,
 											"top": 327,
-											"width": 94.630859375,
+											"width": 110.5126953125,
 											"height": 13,
-											"text": "Get profiles list"
+											"text": "Get list of profiles"
 										},
 										{
 											"_type": "LabelView",
@@ -1666,7 +1666,7 @@
 									"font": "Arial;13;0",
 									"left": 1520,
 									"top": 320,
-									"width": 104.630859375,
+									"width": 120.5126953125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+Ja8pafWi36I="
@@ -1686,7 +1686,7 @@
 							"containerChangeable": true,
 							"left": 1520,
 							"top": 320,
-							"width": 104.630859375,
+							"width": 120.5126953125,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+Ja8pafWhpLI="
@@ -4475,9 +4475,9 @@
 											"font": "Arial;13;1",
 											"left": 981,
 											"top": 1847,
-											"width": 55.64990234375,
+											"width": 64.669921875,
 											"height": 78,
-											"text": "Send error message \"Profile not found\"",
+											"text": "Send error message \"id_profile not found\"",
 											"wordWrap": true
 										},
 										{
@@ -4517,7 +4517,7 @@
 									"font": "Arial;13;0",
 									"left": 976,
 									"top": 1840,
-									"width": 65.64990234375,
+									"width": 74.669921875,
 									"height": 90,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JbgJ0vf90eM="
@@ -4542,7 +4542,7 @@
 							"containerChangeable": true,
 							"left": 976,
 							"top": 1840,
-							"width": 65.64990234375,
+							"width": 74.669921875,
 							"height": 106,
 							"autoResize": true,
 							"nameCompartment": {
@@ -5163,7 +5163,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Send a request to get profiles list"
+					"name": "Send a request to get list of profiles"
 				},
 				{
 					"_type": "UMLAction",
@@ -5179,7 +5179,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Get profiles list"
+					"name": "Get list of profiles"
 				},
 				{
 					"_type": "UMLAction",
@@ -5745,7 +5745,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Send error message \"Profile not found\""
+							"name": "Send error message \"id_profile not found\""
 						}
 					]
 				},

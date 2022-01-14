@@ -121,7 +121,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 880,
-									"top": 12,
+									"top": 20,
 									"width": 577,
 									"height": 13,
 									"text": "Server",
@@ -144,7 +144,7 @@
 							],
 							"font": "Arial;13;0",
 							"left": 880,
-							"top": 8,
+							"top": 16,
 							"width": 577,
 							"height": 2617,
 							"nameLabel": {
@@ -252,7 +252,7 @@
 											"top": 119,
 											"width": 161.8525390625,
 											"height": 13,
-											"text": "Clic on \"Delete message\""
+											"text": "Clic on \"Delete question\""
 										},
 										{
 											"_type": "LabelView",
@@ -853,7 +853,7 @@
 											"top": 1143,
 											"width": 244.89892578125,
 											"height": 13,
-											"text": "Send back confirmation message to OS"
+											"text": "Send confirmation message to OS"
 										},
 										{
 											"_type": "LabelView",
@@ -955,7 +955,7 @@
 											"top": 1239,
 											"width": 264.3544921875,
 											"height": 13,
-											"text": "Display confirmation of message removal"
+											"text": "Display confirmation \"Question deleted\""
 										},
 										{
 											"_type": "LabelView",
@@ -1425,7 +1425,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 984,
-											"top": 760,
+											"top": 776,
 											"height": 13
 										},
 										{
@@ -1436,10 +1436,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 1541,
-											"top": 991,
-											"width": 109.83984375,
+											"top": 999,
+											"width": 108.3544921875,
 											"height": 13,
-											"text": "Remove message"
+											"text": "Remove question"
 										},
 										{
 											"_type": "LabelView",
@@ -1450,7 +1450,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 984,
-											"top": 760,
+											"top": 776,
 											"width": 86.6708984375,
 											"height": 13,
 											"text": "(from Server)"
@@ -1464,15 +1464,15 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 984,
-											"top": 760,
+											"top": 776,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1536,
-									"top": 984,
-									"width": 119.83984375,
+									"top": 992,
+									"width": 118.3544921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF967u0YSF0Vo0="
@@ -1494,8 +1494,8 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 1536,
-							"top": 984,
-							"width": 119.83984375,
+							"top": 992,
+							"width": 118.3544921875,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF967u0YSFznHg="
@@ -1582,7 +1582,7 @@
 							"tail": {
 								"$ref": "AAAAAAF967sk4yFDpIQ="
 							},
-							"points": "1127:436;1249:436;1249:480",
+							"points": "1127:436;1249:436;1249:488",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JbeEv/fhlPY="
@@ -1845,7 +1845,7 @@
 									"fontColor": "#ff0000",
 									"font": "Arial;13;0",
 									"left": 916,
-									"top": 731,
+									"top": 739,
 									"width": 28.1708984375,
 									"height": 13,
 									"alpha": -1.1259485723136051,
@@ -1868,7 +1868,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 997,
-									"top": 713,
+									"top": 721,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1889,7 +1889,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 953,
-									"top": 714,
+									"top": 722,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1908,7 +1908,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+Jbfsgvf2zhs="
 							},
-							"points": "1128:720;968:720;968:776",
+							"points": "1128:728;968:728;968:784",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+JbjwMPiW0xc="
@@ -2204,7 +2204,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+Qx/qN5/ffnM="
 							},
-							"points": "1632:805;1624:805;1624:984",
+							"points": "1632:805;1624:805;1624:992",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+QyAtSp//uXQ="
@@ -2257,9 +2257,9 @@
 											"font": "Arial;13;1",
 											"left": 1741,
 											"top": 863,
-											"width": 196.58056640625,
+											"width": 190.76611328125,
 											"height": 26,
-											"text": "Archive the message in \"ID_Collok_Archive_Messages\"",
+											"text": "Archive the message in \"ID_Collok_Archive_Question\"",
 											"wordWrap": true
 										},
 										{
@@ -2293,7 +2293,7 @@
 									"font": "Arial;13;0",
 									"left": 1736,
 									"top": 856,
-									"width": 206.58056640625,
+									"width": 200.76611328125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+QyA+JKASyK0="
@@ -2316,7 +2316,7 @@
 							"containerChangeable": true,
 							"left": 1736,
 							"top": 856,
-							"width": 206.58056640625,
+							"width": 200.76611328125,
 							"height": 54,
 							"autoResize": true,
 							"nameCompartment": {
@@ -2632,7 +2632,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -1032,
-											"top": -2432,
+											"top": -2416,
 											"height": 13
 										},
 										{
@@ -2643,10 +2643,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 1173,
-											"top": 487,
+											"top": 495,
 											"width": 169.08251953125,
 											"height": 13,
-											"text": "Check if message still exist"
+											"text": "Check if question still exist"
 										},
 										{
 											"_type": "LabelView",
@@ -2657,7 +2657,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -1032,
-											"top": -2432,
+											"top": -2416,
 											"width": 86.6708984375,
 											"height": 13,
 											"text": "(from Server)"
@@ -2671,14 +2671,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -1032,
-											"top": -2432,
+											"top": -2416,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1168,
-									"top": 480,
+									"top": 488,
 									"width": 179.08251953125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2701,7 +2701,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 1168,
-							"top": 480,
+							"top": 488,
 							"width": 179.08251953125,
 							"height": 41,
 							"nameCompartment": {
@@ -2749,7 +2749,7 @@
 											"top": 591,
 											"width": 169.787109375,
 											"height": 13,
-											"text": "Get the message requested"
+											"text": "Get the question requested"
 										},
 										{
 											"_type": "LabelView",
@@ -2979,7 +2979,7 @@
 							"tail": {
 								"$ref": "AAAAAAF+WBm0GJuu0ws="
 							},
-							"points": "1520:608;1136:608;1136:712",
+							"points": "1520:608;1136:608;1136:720",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF+WBoWz5vlvag="
@@ -3022,7 +3022,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -1672,
-											"top": -1864,
+											"top": -1848,
 											"height": 13
 										},
 										{
@@ -3035,10 +3035,10 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;1",
 											"left": 933,
-											"top": 783,
-											"width": 80.59619140625,
+											"top": 791,
+											"width": 79.11083984375,
 											"height": 65,
-											"text": "Send error message \"id_message can't be found\"",
+											"text": "Send error message \"id_question can't be found\"",
 											"wordWrap": true
 										},
 										{
@@ -3052,7 +3052,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -1672,
-											"top": -1864,
+											"top": -1848,
 											"width": 86.6708984375,
 											"height": 13,
 											"text": "(from Server)"
@@ -3068,7 +3068,7 @@
 											"fontColor": "#ff0000",
 											"font": "Arial;13;0",
 											"left": -1672,
-											"top": -1864,
+											"top": -1848,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
@@ -3077,8 +3077,8 @@
 									"fontColor": "#ff0000",
 									"font": "Arial;13;0",
 									"left": 928,
-									"top": 776,
-									"width": 90.59619140625,
+									"top": 784,
+									"width": 89.11083984375,
 									"height": 77,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+JbgJ0vf90eM="
@@ -3102,8 +3102,8 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 928,
-							"top": 776,
-							"width": 90.59619140625,
+							"top": 784,
+							"width": 89.11083984375,
 							"height": 93,
 							"autoResize": true,
 							"nameCompartment": {
@@ -3126,7 +3126,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 1128,
-							"top": 712,
+							"top": 720,
 							"width": 23,
 							"height": 19
 						},
@@ -3389,7 +3389,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Send back confirmation message to OS"
+					"name": "Send confirmation message to OS"
 				},
 				{
 					"_type": "UMLAction",
@@ -3430,7 +3430,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF966WU3x03zm4="
 					},
-					"name": "Get the message requested"
+					"name": "Get the question requested"
 				}
 			],
 			"edges": [
@@ -3687,7 +3687,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967ALdB08WQ0="
 							},
-							"name": "Clic on \"Delete message\"",
+							"name": "Clic on \"Delete question\"",
 							"kind": "acceptSignal"
 						}
 					]
@@ -3714,7 +3714,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967CJ7B1HHSo="
 							},
-							"name": "Display confirmation of message removal",
+							"name": "Display confirmation \"Question deleted\"",
 							"kind": "sendSignal"
 						},
 						{
@@ -3741,7 +3741,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Remove message"
+							"name": "Remove question"
 						},
 						{
 							"_type": "UMLAction",
@@ -3749,7 +3749,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Check if message still exist"
+							"name": "Check if question still exist"
 						},
 						{
 							"_type": "UMLAction",
@@ -3757,7 +3757,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967DAOx1S8R4="
 							},
-							"name": "Send error message \"id_message can't be found\""
+							"name": "Send error message \"id_question can't be found\""
 						},
 						{
 							"_type": "UMLDecisionNode",
@@ -3783,7 +3783,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF967EDPB1dC3s="
 							},
-							"name": "Archive the message in \"ID_Collok_Archive_Messages\""
+							"name": "Archive the message in \"ID_Collok_Archive_Question\""
 						},
 						{
 							"_type": "UMLFlowFinalNode",
