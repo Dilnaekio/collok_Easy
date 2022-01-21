@@ -1,0 +1,139 @@
+alter table `cities`
+add
+department_city varchar(3) DEFAULT NULL;
+
+alter table `cities`
+add
+slug_city varchar(255) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  simple_name_city varchar(45) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  real_name_city varchar(45) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  soundex_name_city varchar(20) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  metaphone_name_city varchar(22) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  township_city varchar(3) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  township_code_city varchar(5) NOT NULL;
+  
+    alter table `cities`
+add
+  borough_city smallint(3) unsigned DEFAULT NULL;
+  
+    alter table `cities`
+add
+  canton_city varchar(4) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  amdi_city smallint(5) unsigned DEFAULT NULL;
+  
+    alter table `cities`
+add
+  population_2010_city mediumint(11) unsigned DEFAULT NULL;
+  
+    alter table `cities`
+add
+  population_1999_city mediumint(11) unsigned DEFAULT NULL;
+  
+    alter table `cities`
+add
+  population_2012_city mediumint(10) unsigned DEFAULT NULL COMMENT 'approximatif';
+  
+    alter table `cities`
+add
+  density_2010_city int(11) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  surface_city float DEFAULT NULL;
+  
+    alter table `cities`
+add
+  longitude_deg_city float DEFAULT NULL;
+  
+    alter table `cities`
+add
+  latitude_deg_city float DEFAULT NULL;
+  
+    alter table `cities`
+add
+  longitude_grd_city varchar(9) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  latitude_grd_city varchar(8) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  longitude_dms_city varchar(9) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  latitude_dms_city varchar(8) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  zmin_city mediumint(4) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  zmax_city mediumint(4) DEFAULT NULL;
+  
+    alter table `cities`
+add
+  UNIQUE KEY township_code_city_2 (township_code_city);
+  
+    alter table `cities`
+add
+  UNIQUE KEY slug_city (slug_city);
+  
+    alter table `cities`
+add
+  KEY department_city (department_city);
+  
+    alter table `cities`
+add
+  KEY real_name_city (real_name_city);
+  
+    alter table `cities`
+add
+  KEY township_code_city (township_code_city);
+  
+    alter table `cities`
+add
+  KEY cp_city (cp_city);
+  
+    alter table `cities`
+add
+  KEY longitude_latitude_deg_city (longitude_deg_city,latitude_deg_city);
+  
+    alter table `cities`
+add
+  KEY soundex_name_city (soundex_name_city);
+  
+    alter table `cities`
+add
+  KEY metaphone_name_city (metaphone_name_city);
+  
+    alter table `cities`
+add
+  KEY population_2010_city (population_2010_city);
+  
+    alter table `cities`
+add
+  KEY simple_name_city (simple_name_city);
