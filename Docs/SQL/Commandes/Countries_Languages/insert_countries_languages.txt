@@ -1,2 +1,0 @@
-insert into `countries_languages` (id_country, id_language) values
-	(73, 1);

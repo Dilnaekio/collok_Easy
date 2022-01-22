@@ -1,0 +1,7 @@
+insert into `roles` (name_role) VALUES
+("Admin"),
+("Manager"),
+("Colloker"),
+("Visiteur")
+("Team_Collok_Easy"),
+("Team_Manager_Collok_Easy");

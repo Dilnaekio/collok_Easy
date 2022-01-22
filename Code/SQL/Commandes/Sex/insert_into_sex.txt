@@ -1,0 +1,5 @@
+insert into `sex` (name_sex) VALUES
+("Homme"),
+("Femme"),
+("Non binaire"),
+("Autre");

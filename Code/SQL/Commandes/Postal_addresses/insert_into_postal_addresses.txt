@@ -1,0 +1,2 @@
+insert into `postal_addresses` (street_name_address, street_number_address, place_address, floor_number_address, accommodation_number_address, id_city) VALUES
+("Rue du moulin de Sémalen", "55", "Résidence - Les lycées", "3e", "26", 13339);

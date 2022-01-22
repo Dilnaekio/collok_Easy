@@ -1,0 +1,6 @@
+insert into `housing_types` (name_housing_type) VALUES
+("Maison"),
+("Appartement"),
+("Chambre"),
+("Itinérant"),
+("Autre");

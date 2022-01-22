@@ -1,0 +1,5 @@
+insert into `accounts` (mail_account, password_account) VALUES
+("delcourtfabian@gmail.com", "Ag8dDE1gZ"),
+("sbernar8gmail.com", "1234"),
+("fgeynet@gmail.com", "1002"),
+("co.seguin@gmail.com", "6087");
