@@ -1,0 +1,2 @@
+insert into `accommodations`(name_accommodation, number_collokers_accommodation, rent_amount_accommodation, housing_area_accommodation, id_postal_address) VALUES
+("New Collock On the Block", "4", "1 200", "96m²", 1);
