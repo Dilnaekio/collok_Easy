@@ -225,8 +225,15 @@ create table `connections`(
 
 create table `rewards`(
 	id_reward int PRIMARY KEY not null AUTO_INCREMENT,
-    name_reward varchar(30) not null,
-    price_reward int not null
+    	name_reward varchar(30) not null,
+    	price_reward int not null,
+	number_of_use int not null,
+	id_category int,
+	id_type_reward int,
+	id_reward_counter int,
+	FOREIGN KEY(id_category) references `categories`(id_category),
+	FOREIGN KEY(id_type_reward) references `types_of_rewards`(id_type_reward),
+	FOREIGN KEY(id_reward_counter) references `rewards_counters`(id_reward_counter)
 );
 
 create table `wallets`(
@@ -374,4 +381,14 @@ create table `tracking_wallets`(
     PRIMARY KEY (id_tracking, id_wallet),
     FOREIGN KEY(id_tracking) REFERENCES `tracking`(id_tracking),
     FOREIGN KEY(id_wallet) REFERENCES `wallets`(id_wallet)
+);
+
+create table `types_of_rewards`(
+id_type_reward int PRIMARY KEY not null AUTO_INCREMENT,
+name_type_reward varchar(50) not null UNIQUE
+);
+
+create table `rewards_counters`(
+	id_reward_counter int PRIMARY KEY not null AUTO_INCREMENT,
+    name_reward_counter varchar(50) not null UNIQUE
 );
