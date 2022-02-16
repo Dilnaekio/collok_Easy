@@ -1,3 +1,4 @@
+/* Imports for fonts used */
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap');
 
@@ -8,57 +9,94 @@
     /* Special Colors */
     --brightYellow: rgb(235, 192, 76);
     --brokenYellow: #faf6e9;
+    --doubleBorderColor:#32a1ce;
+
+    /* Main colors */
+    --main-bg-color: #E5F3FD;
+    --main-hoverLinks-color:#429e9a;
 
     /* Fonts */
     --comforter: 'Comforter', cursive;
     --meriweather: 'Merriweather', 'Roboto Slab', cursive;
+
+    /* Set up for some variables that must be fixed and changed easily */
+    --marginTopBottomHeadFoot:2rem;
 }
 
 /* General ------ */
 
 body{
-    background-color:var(--brokenYellow);
+    height: 100vh;
+    width: 100%;
     text-align: center;
 }
-
-div {margin: 1rem 0;}
-
-label, a{font-family: var(--meriweather);}
-
-a{
-    text-decoration: none;
-    color: var(--brightYellow);
-    font-weight: bold;
-}
-
-.dGrid{display: grid;}
-
-/* Header ------ */
-
-h1{
-    font-size: 5rem;
-    font-family: --comforter;
-    padding: 1%;
-    margin: 5rem 0.5rem;
-}
-
-h1 span{
-    color: var(--brightYellow);
-    font-style: italic;
-}
-
-/* Main ------ */
 
 main{
     width: 80%;
     height: 100%;
     margin: auto;
-    grid-template-columns: 1fr;
 }
 
-main form div{
-    grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
-    /* Gap will be 50% from parent height */
-    gap: 50%;
+/* headFootSetting => common settings between header and footer */
+.headFootSettings{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color:var(--main-bg-color);
+}
+
+header{
+    border-block-end:thick double var(--doubleBorderColor);
+    margin-bottom: var(--marginTopBottomHeadFoot);
+}
+
+footer{
+    justify-content: center;
+    border-block-start:thick double var(--doubleBorderColor);
+    margin-top: var(--marginTopBottomHeadFoot);
+}
+
+.HoneCollokEasy{
+    flex:2;
+    font-family: var(--meriweather);
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.spanCollokEasy{
+    color: var(--brightYellow);
+}
+
+/* Header and footer ------ */
+.navLinks{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: var(--brightYellow);
+    font-family: var(--meriweather);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navLinks a:hover{
+    color: var(--main-hoverLinks-color);
+}
+
+/* Specific to index : Main ------ */
+
+.mainIndex{
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 15%;
+    background-color: aquamarine;
 }
