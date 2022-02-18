@@ -16,6 +16,18 @@
     border-radius: var(--borderslightlyRound);
 }
 
+p{
+    text-align: justify;
+}
+
+.firstSectionIndex>article>p{
+    font-size: 4vw;
+}
+
+.secondSectionIndex>article>section>p{
+    font-size: 1.2vw;
+}
+
 .secondSectionIndex article section img{
     height: 5rem;
     width: 5rem;
