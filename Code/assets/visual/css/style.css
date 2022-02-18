@@ -5,6 +5,7 @@
 :root{
     /* Classic colors */
     --black:#000000;
+    --red:#FF4C4C;
 
     /* Special Colors */
     --brightYellow: rgb(235, 192, 76);
@@ -99,4 +100,25 @@ footer{
     margin: auto;
     border-radius: 15%;
     background-color: aquamarine;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Class for differents styles */
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.actionVerb{
+    color: var(--red);
+    font-weight: 600;
+}
+
+img{
+    height: 10rem;
+    width: 20rem;
 }
