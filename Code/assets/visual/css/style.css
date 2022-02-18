@@ -94,14 +94,22 @@ footer{
 /* Specific to index : Main ------ */
 
 .mainIndex{
-    width: 80%;
+    width: 85%;
     height: 100%;
     padding: 2rem;
     margin: auto;
     border-radius: 15%;
     background-color: aquamarine;
+}
+
+.dFlexColumn{
     display: flex;
     flex-flow: column wrap;
+}
+
+.dFlexRow{
+    display: flex;
+    flex-flow: wrap;
 }
 
 /* Class for differents styles */
@@ -118,6 +126,7 @@ footer{
     font-weight: 600;
 }
 
+/* This class is just temporary. Must be removed when i will get the real imgs */
 img{
     height: 10rem;
     width: 20rem;
