@@ -14,6 +14,7 @@
 
     /* Main colors */
     --main-bg-color: #E5F3FD;
+    --main-section-color:#f0f8ff;
     --main-hoverLinks-color:#429e9a;
 
     /* Fonts */
@@ -22,6 +23,7 @@
 
     /* Set up for some variables that must be fixed and changed easily */
     --marginTopBottomHeadFoot:2rem;
+    --borderslightlyRound:5%;
 }
 
 /* headFootSetting => common settings between header and footer */
@@ -94,6 +96,7 @@ main{
 h2{
     font-size: 2rem;
     text-decoration: underline;
+    margin: 0rem 0.1rem 1rem 0.1rem;
 }
 
 .dFlexColumn{
@@ -111,7 +114,7 @@ img{
     height: auto;
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: var(--borderslightlyRound);
 }
 
 .flexSize1{
@@ -143,21 +146,20 @@ img{
     height: 100%;
     padding: 2rem;
     margin: auto;
-    border-radius: 5%;
+    border-radius: var(--borderslightlyRound);
     background-color: aquamarine;
 }
 
 .mainIndex > section{
     padding: 1rem;
     margin-bottom: 3rem;
+    background-color: var(--main-section-color);
+    /* TODO : Remove border dash when set up done */
     border:dashed black 2px;
+    border-radius: var(--borderslightlyRound);
 }
 
-.secondSectionIndex article  section img{
+.secondSectionIndex article section img{
     height: 5rem;
     width: 5rem;
-}
-
-article > p{
-    padding: 1rem;
 }
