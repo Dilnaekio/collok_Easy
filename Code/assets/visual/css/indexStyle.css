@@ -1,6 +1,6 @@
 .mainIndex{
     width: 85%;
-    height: 100%;
+    height: auto;
     padding: 2rem;
     margin: auto;
     border-radius: var(--borderslightlyRound);
