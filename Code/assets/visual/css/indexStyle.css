@@ -20,3 +20,7 @@
     height: 5rem;
     width: 5rem;
 }
+
+.thirdSectionIndex figure img{
+    border-radius: 0%;
+}

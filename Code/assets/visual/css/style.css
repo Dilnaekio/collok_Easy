@@ -45,7 +45,7 @@ footer{
     margin-top: var(--marginTopBottomHeadFoot);
 }
 
-.HoneCollokEasy{
+.H1CollokEasy{
     flex:2;
     font-family: var(--meriweather);
     font-size: 3rem;
@@ -106,7 +106,7 @@ h2{
 
 .dFlexRow{
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
