@@ -1,0 +1,22 @@
+.mainIndex{
+    width: 85%;
+    height: 100%;
+    padding: 2rem;
+    margin: auto;
+    border-radius: var(--borderslightlyRound);
+    background-color: aquamarine;
+}
+
+.mainIndex > section{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: var(--main-section-color);
+    /* TODO : Remove border dash when set up done */
+    border:dashed black 2px;
+    border-radius: var(--borderslightlyRound);
+}
+
+.secondSectionIndex article section img{
+    height: 5rem;
+    width: 5rem;
+}
