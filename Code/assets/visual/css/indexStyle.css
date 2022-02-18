@@ -16,12 +16,17 @@
     border-radius: var(--borderslightlyRound);
 }
 
+article{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
 p{
     text-align: justify;
 }
 
 .firstSectionIndex>article>p{
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .secondSectionIndex>article>section>p{
@@ -35,4 +40,9 @@ p{
 
 .thirdSectionIndex figure img{
     border-radius: 0%;
+}
+
+/* TODO : il y a un conflit => la taille ne change pas */
+.fourthSectionIndex>section>p{
+    font-size: 1.2vw;
 }
