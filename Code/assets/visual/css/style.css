@@ -5,7 +5,7 @@
 :root{
     /* Classic colors */
     --black:#000000;
-    --red:#FF4C4C;
+    --salmon:#FF4C4C;
 
     /* Special Colors */
     --brightYellow: rgb(235, 192, 76);
@@ -22,20 +22,6 @@
 
     /* Set up for some variables that must be fixed and changed easily */
     --marginTopBottomHeadFoot:2rem;
-}
-
-/* General ------ */
-
-body{
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-}
-
-main{
-    width: 80%;
-    height: 100%;
-    margin: auto;
 }
 
 /* headFootSetting => common settings between header and footer */
@@ -91,15 +77,23 @@ footer{
     color: var(--main-hoverLinks-color);
 }
 
-/* Specific to index : Main ------ */
+/* General ------ */
 
-.mainIndex{
-    width: 85%;
+body{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    width: 80%;
     height: 100%;
-    padding: 2rem;
     margin: auto;
-    border-radius: 15%;
-    background-color: aquamarine;
+}
+
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 .dFlexColumn{
@@ -110,6 +104,22 @@ footer{
 .dFlexRow{
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.flexSize1{
+    flex:1
+}
+
+.flexSize2{
+    flex:2
 }
 
 /* Class for differents styles */
@@ -122,12 +132,32 @@ footer{
 }
 
 .actionVerb{
-    color: var(--red);
+    color: var(--salmon);
     font-weight: 600;
 }
 
-/* This class is just temporary. Must be removed when i will get the real imgs */
-img{
-    height: 10rem;
-    width: 20rem;
+/* Specific to index : Main ------ */
+
+.mainIndex{
+    width: 85%;
+    height: 100%;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 5%;
+    background-color: aquamarine;
+}
+
+.mainIndex > section{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border:dashed black 2px;
+}
+
+.secondSectionIndex article  section img{
+    height: 5rem;
+    width: 5rem;
+}
+
+article > p{
+    padding: 1rem;
 }
