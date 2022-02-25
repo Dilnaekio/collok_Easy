@@ -23,14 +23,11 @@ article{
 
 p{
     text-align: justify;
-}
-
-.firstSectionIndex>article>p{
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 
 .secondSectionIndex>article>section>p{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 .secondSectionIndex article section img{
@@ -40,8 +37,4 @@ p{
 
 .thirdSectionIndex figure img{
     border-radius: 0%;
-}
-
-.fourthSectionIndex>section>article>p{
-    font-size: 2vw;
 }
