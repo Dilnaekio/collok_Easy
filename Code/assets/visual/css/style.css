@@ -27,7 +27,7 @@
 }
 
 /* headFootSetting => common settings between header and footer */
-.headFootSettings{
+.head-foot-settings{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -45,7 +45,7 @@ footer{
     margin-top: var(--marginTopBottomHeadFoot);
 }
 
-.H1CollokEasy{
+.H1-collok-easy{
     flex:2;
     font-family: var(--meriweather);
     font-size: 5vw;
@@ -54,12 +54,12 @@ footer{
     align-self: center;
 }
 
-.spanCollokEasy{
+.span-collok-easy{
     color: var(--brightYellow);
 }
 
 /* Header and footer ------ */
-.navLinks{
+.nav-links{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -67,7 +67,7 @@ footer{
     padding: 1rem;
 }
 
-.navLinks a{
+.nav-links a{
     text-decoration: none;
     color: var(--brightYellow);
     font-family: var(--meriweather);
@@ -75,7 +75,7 @@ footer{
     font-size: 2vw;
 }
 
-.navLinks a:hover{
+.nav-links a:hover{
     color: var(--main-hoverLinks-color);
 }
 
@@ -98,12 +98,12 @@ h2{
     margin: 0rem 0.1rem 1rem 0.1rem;
 }
 
-.dFlexColumn{
+.d-flex-column{
     display: flex;
     flex-flow: column wrap;
 }
 
-.dFlexRow{
+.d-flex-row{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -116,11 +116,11 @@ img{
     border-radius: var(--borderslightlyRound);
 }
 
-.flexSize1{
+.flex-size-1{
     flex:1
 }
 
-.flexSize2{
+.flex-size-2{
     flex:2
 }
 
@@ -133,7 +133,7 @@ img{
     font-weight: bold;
 }
 
-.actionVerb{
+.action-verb{
     color: var(--salmon);
     font-weight: 600;
 }

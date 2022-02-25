@@ -1,5 +1,5 @@
 /* TODO : Remove border dash when set up done */
-.mainIndex{
+.main-index{
     width: 85%;
     height: auto;
     padding: 2rem;
@@ -8,7 +8,7 @@
     background-color: aquamarine;
 }
 
-.mainIndex > section{
+.main-index > section{
     padding: 1rem;
     margin-bottom: 3rem;
     background-color: var(--main-section-color);
@@ -26,33 +26,41 @@ p{
     font-size: 2vw;
 }
 
-.secondSectionIndex>article>section>p{
+.second-section-index>article>section>p{
     font-size: 1.5vw;
 }
 
-.secondSectionIndex article section img{
+.second-section-index article section img{
     height: 5rem;
     width: 5rem;
 }
 
-.thirdSectionIndex figure img{
+.third-section-index figure img{
     border-radius: 0%;
 }
 
-.sixthSectionIndex{
+.sixth-section-index{
     margin-bottom: 3rem;
 }
 
-.sixthSectionIndex img{
+.sixth-section-index img{
     height: 10rem;
     border-radius: 0%;
 }
 
-.seventhSection{
-    width: 100%;
-    vertical-align: 5rem;
+/* TODO: centrer verticalement le texte */
+.seventh-section-index>article{
+    text-align: center;
+    vertical-align: middle; /*ça marche paaaaaaas*/
+    /* Rédef hauteur et tester align-self, etc. */
+    /* Tenter padding avec vh et vw */
 }
 
-.seventhSection>p{
+/* Ne marchera pas car l'héritage de .mainIndex > section a le dessus */
+.eighth-section-index{
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
+
+/* TODO: refaire les noms en kebab case et non camel case */
