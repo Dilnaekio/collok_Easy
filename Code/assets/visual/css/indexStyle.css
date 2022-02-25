@@ -1,4 +1,9 @@
 /* TODO : Remove border dash when set up done */
+:root{
+    /* Specials colors */
+    --important-green: #008000;
+}
+
 .main-index{
     width: 85%;
     height: auto;
@@ -54,6 +59,15 @@ p{
 
 .eighth-section-index{
     width: 80%;
-    margin: auto;
+    margin: 4vh auto;
+}
+
+.eighth-section-index p, .eighth-section-index a{
     text-align: center;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+.eighth-section-index a{
+    color: var(--important-green);
 }
