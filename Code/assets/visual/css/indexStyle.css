@@ -2,23 +2,23 @@
 .main-index{
     width: 85%;
     height: auto;
-    padding: 2rem;
+    padding: 2vw;
     margin: auto;
     border-radius: var(--borderslightlyRound);
     background-color: aquamarine;
 }
 
 .main-index > section{
-    padding: 1rem;
-    margin-bottom: 3rem;
+    padding: 1vw;
+    margin-bottom: 3vh;
     background-color: var(--main-section-color);
     border:dashed black 2px;
     border-radius: var(--borderslightlyRound);
 }
 
 article{
-    margin-left:1rem;
-    margin-right:1rem;
+    margin-left:1vw;
+    margin-right:1vw;
 }
 
 p{
@@ -40,7 +40,7 @@ p{
 }
 
 .sixth-section-index{
-    margin-bottom: 3rem;
+    margin-bottom: 3vh;
 }
 
 .sixth-section-index img{
@@ -48,19 +48,12 @@ p{
     border-radius: 0%;
 }
 
-/* TODO: centrer verticalement le texte */
 .seventh-section-index>article{
-    text-align: center;
-    vertical-align: middle; /*ça marche paaaaaaas*/
-    /* Rédef hauteur et tester align-self, etc. */
-    /* Tenter padding avec vh et vw */
+    justify-content: center;
 }
 
-/* Ne marchera pas car l'héritage de .mainIndex > section a le dessus */
 .eighth-section-index{
     width: 80%;
     margin: auto;
     text-align: center;
 }
-
-/* TODO: refaire les noms en kebab case et non camel case */

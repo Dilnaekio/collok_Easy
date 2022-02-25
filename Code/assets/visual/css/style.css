@@ -64,7 +64,7 @@ footer{
     flex-flow: row wrap;
     justify-content: flex-end;
     gap: 1.5rem;
-    padding: 1rem;
+    padding: 1vw;
 }
 
 .nav-links a{
@@ -95,7 +95,7 @@ main{
 h2{
     font-size: 4vw;
     text-decoration: underline;
-    margin: 0rem 0.1rem 1rem 0.1rem;
+    margin: 0vh 0.1vw 1vh 0.1vw;
 }
 
 .d-flex-column{
@@ -136,4 +136,8 @@ img{
 .action-verb{
     color: var(--salmon);
     font-weight: 600;
+}
+
+.marginBottom{
+    margin-bottom: 3rem;
 }
