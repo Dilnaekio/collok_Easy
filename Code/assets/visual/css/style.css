@@ -35,7 +35,7 @@
 }
 
 header{
-    border-block-end:thick double var(--doubleBorderColor);
+    border-bottom:thick double var(--doubleBorderColor);
     margin-bottom: var(--marginTopBottomHeadFoot);
 }
 
@@ -93,8 +93,6 @@ main{
 }
 
 h2{
-    /* font-size: 2rem; */
-    /* font-size: 8vh; */
     font-size: 5vw;
     text-decoration: underline;
     margin: 0rem 0.1rem 1rem 0.1rem;

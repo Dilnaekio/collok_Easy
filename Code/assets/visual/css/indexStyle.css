@@ -42,7 +42,6 @@ p{
     border-radius: 0%;
 }
 
-/* TODO : il y a un conflit => la taille ne change pas */
-.fourthSectionIndex>section>p{
-    font-size: 1.2vw;
+.fourthSectionIndex>section>article>p{
+    font-size: 2vw;
 }
