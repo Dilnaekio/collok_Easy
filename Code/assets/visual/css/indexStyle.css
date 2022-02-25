@@ -1,16 +1,11 @@
 /* TODO : Remove border dash when set up done */
-:root{
-    /* Specials colors */
-    --important-green: #008000;
-}
-
 .main-index{
     width: 85%;
     height: auto;
     padding: 2vw;
     margin: auto;
     border-radius: var(--borderslightlyRound);
-    background-color: aquamarine;
+    background-color: var(--main-background-color);
 }
 
 .main-index > section{

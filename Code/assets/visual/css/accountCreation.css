@@ -1,8 +1,17 @@
 .main-account-creation{
-    width: 85%;
-    height: auto;
-    padding: 2vw;
+    width: 50%;
+    height: 100vh;
+    padding: 1vw;
     margin: auto;
-    border-radius: var(--borderslightlyRound);
-    background-color: aquamarine;
+    border-radius: var(--borders-slightly-round);
+    background-color: var(--main-background-color);
+}
+
+form{
+    height:auto;
+    width: 90%;
+    margin: auto;
+    background-color: RGBA(0,0,0,0.10);
+    border-radius: var(--borders-slightly-round);
+    border:solid black 0.5px;
 }

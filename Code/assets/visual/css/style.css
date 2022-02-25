@@ -11,11 +11,13 @@
     --brightYellow: rgb(235, 192, 76);
     --brokenYellow: #faf6e9;
     --doubleBorderColor:#32a1ce;
+    --important-green: #008000;
 
     /* Main colors */
     --main-bg-color: #E5F3FD;
     --main-section-color:#f0f8ff;
     --main-hoverLinks-color:#429e9a;
+    --main-background-color:aquamarine;
 
     /* Fonts */
     --comforter: 'Comforter', cursive;
@@ -23,7 +25,7 @@
 
     /* Set up for some variables that must be fixed and changed easily */
     --marginTopBottomHeadFoot:2rem;
-    --borderslightlyRound:5%;
+    --borders-slightly-round:5%;
 }
 
 /* headFootSetting => common settings between header and footer */
@@ -113,7 +115,7 @@ img{
     height: auto;
     width: 100%;
     object-fit: cover;
-    border-radius: var(--borderslightlyRound);
+    border-radius: var(--borders-slightly-round);
 }
 
 .flex-size-1{
