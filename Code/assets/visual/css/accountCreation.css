@@ -15,3 +15,10 @@ form{
     border-radius: var(--borders-slightly-round);
     border:solid black 0.5px;
 }
+
+legend, label, input{
+    /* TODO: changer la police DEGUEULASSE */
+    font-family: var(--comforter);
+}
+
+/* TODO : voir l'histoire font-family */

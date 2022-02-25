@@ -4,7 +4,7 @@
     height: auto;
     padding: 2vw;
     margin: auto;
-    border-radius: var(--borderslightlyRound);
+    border-radius: var(--borders-slightly-round);
     background-color: var(--main-background-color);
 }
 
@@ -13,7 +13,7 @@
     margin-bottom: 3vh;
     background-color: var(--main-section-color);
     border:dashed black 2px;
-    border-radius: var(--borderslightlyRound);
+    border-radius: var(--borders-slightly-round);
 }
 
 article{
