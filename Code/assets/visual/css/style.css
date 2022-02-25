@@ -1,6 +1,7 @@
 /* Imports for fonts used */
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 :root{
     /* Classic colors */
@@ -22,6 +23,7 @@
     /* Fonts */
     --comforter: 'Comforter', cursive;
     --meriweather: 'Merriweather', 'Roboto Slab', cursive;
+    --redressed: 'Redressed', cursive;
 
     /* Set up for some variables that must be fixed and changed easily */
     --marginTopBottomHeadFoot:2rem;

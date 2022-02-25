@@ -18,7 +18,7 @@ form{
 
 legend, label, input{
     /* TODO: changer la police DEGUEULASSE */
-    font-family: var(--comforter);
+    font-family: var(--redressed);
 }
 
 /* TODO : voir l'histoire font-family */
