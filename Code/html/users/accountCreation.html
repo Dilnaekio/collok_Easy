@@ -15,16 +15,16 @@
 </head>
 
 <body>
-    <header class="headFootSettings">
-        <h1 class="H1CollokEasy" id="headPage">Collok <span class="spanCollokEasy">Easy</span></h1>
+    <header class="head-foot-settings">
+        <h1 class="H1-collok-easy" id="headPage">Collok <span class="span-collok-easy">Easy</span></h1>
         <!-- Head section with links to another pages -->
-        <nav class="navLinks">
+        <nav class="nav-links">
             <a href="index.html">Accueil |</a>
             <a href="users/connection.html">Connexion |</a>
         </nav>
     </header>
     
-    <main class="mainAccountCreation dFlexColumn">
+    <main class="main-account-creation d-flex-column">
         <!-- Informations form for new user -->
         <form action="sendInfosNewUser.php" method="post">
             <fieldset>
@@ -38,23 +38,23 @@
                 <br>
     
                 <!-- Last and first names -->
-                <label for="firstName">Prénom (*)</label>
+                <label for="first-name">Prénom (*)</label>
                 <br>
-                <input type="text" name="firstName" id="firstName" required>
+                <input type="text" name="first-name" id="first-name" required>
     
                 <br>
     
                 <!-- Nickname -->
-                <label for="userNickname">Surnom</label>
+                <label for="user-nickname">Surnom</label>
                 <br>
-                <input type="text" name="userNickname" id="userNickname">
+                <input type="text" name="user-nickname" id="user-nickname">
     
                 <br>
     
                 <!-- Gender, default choice on "Non défini" -->
-                <label for="userGenderSelection">Sexe</label>
+                <label for="user-gender-selection">Sexe</label>
                 <br>
-                <select name="userGenderSelection" id="userGenderSelection">
+                <select name="user-gender-selection" id="user-gender-selection">
                     <option value="Non défini" selected>Non défini</option>
                     <option value="Homme"> Homme</option>
                     <option value="Femme"> Femme</option>
@@ -64,9 +64,9 @@
                 <br>
     
                 <!-- Birthday -->
-                <label for="userBirthday">Naissance(*)</label>
+                <label for="user-birthday">Naissance(*)</label>
                 <br>
-                <input type="date" name="userBirthday" id="userBirthday" required>
+                <input type="date" name="user-birthday" id="user-birthday" required>
             </fieldset>
     
             <!-- Second part : mail adresse -->
@@ -75,8 +75,8 @@
                     Adresse mail
                 </legend>
     
-                <label for="mailUser">Mail</label>
-                <input type="text" name="mailUser" id="mailUser" placeholder="Entrez votre adresse mail">
+                <label for="mail-user">Mail</label>
+                <input type="text" name="mail-user" id="mail-user" placeholder="Entrez votre adresse mail">
             </fieldset>
     
             <!-- Third part : colocation -->
@@ -85,12 +85,12 @@
                     Colocation
                 </legend>
                 <!--  User has already a colocation to join-->
-                <label for="colocationToJoin">Déjà dans une colocation Collok Easy ?</label>
-                <input type="text" name="colocationToJoin" id="colocationToJoin" placeholder="Lien vers votre colocation">
+                <label for="colocation-to-join">Déjà dans une colocation Collok Easy ?</label>
+                <input type="text" name="colocation-to-join" id="colocation-to-join" placeholder="Lien vers votre colocation">
                 <br>
                 <!-- User needs to create a new colocation -->
-                <label for="newColocation">Une nouvelle colocation ?</label>
-                <input type="text" name="newColocation" id="newColocation" placeholder="Nom de votre nouvelle colocation">
+                <label for="new-collocation">Une nouvelle colocation ?</label>
+                <input type="text" name="new-collocation" id="new-collocation" placeholder="Nom de votre nouvelle colocation">
             </fieldset>
     
             <!-- Fourth part : password -->
@@ -99,21 +99,21 @@
                     Mot de passe
                 </legend>
                 <!--  First enter-->
-                <label for="passwordUser">Mot de passe(*)</label>
-                <input type="text" name="passwordUser" id="passwordUser" placeholder="Entrez votre mot de passe" required>
+                <label for="password-user">Mot de passe(*)</label>
+                <input type="text" name="password-user" id="password-user" placeholder="Entrez votre mot de passe" required>
                 <br>
                 <!-- Confirm password -->
-                <label for="confirmedPassword">Confirmer le mot de passe(*)</label>
-                <input type="text" name="confirmedPassword" id="confirmedPassword" placeholder="Confirmez votre mot de passe" required>
+                <label for="confirmed-password">Confirmer le mot de passe(*)</label>
+                <input type="text" name="confirmed-password" id="confirmed-password" placeholder="Confirmez votre mot de passe" required>
             </fieldset>
             <!-- Submit infos -->
             <input type="submit" value="Rejoindre la Collok Family !">
         </form>
     </main>
 
-    <footer class="headFootSettings">
+    <footer class="head-foot-settings">
         <!-- Head section with links to another pages -->
-        <nav class="navLinks">
+        <nav class="nav-links">
             <a href="index.html">Accueil |</a>
             <a href="users/connection.html">Connexion |</a>
         </nav>

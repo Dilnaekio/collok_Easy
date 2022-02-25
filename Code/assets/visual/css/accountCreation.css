@@ -1,0 +1,8 @@
+.main-account-creation{
+    width: 85%;
+    height: auto;
+    padding: 2vw;
+    margin: auto;
+    border-radius: var(--borderslightlyRound);
+    background-color: aquamarine;
+}
