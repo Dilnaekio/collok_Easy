@@ -98,7 +98,7 @@ main{
 
 h2{
     font-size: 4vw;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: 0vh 0.1vw 1vh 0.1vw;
 }
 

@@ -1,6 +1,6 @@
 .main-account-creation{
     width: 50%;
-    height: 100vh;
+    height: auto;
     padding: 1vw;
     margin: auto;
     border-radius: var(--borders-slightly-round);
@@ -19,6 +19,5 @@ form{
 legend, label, input{
     /* TODO: changer la police DEGUEULASSE */
     font-family: var(--redressed);
+    font-size: 2vw;
 }
-
-/* TODO : voir l'histoire font-family */

@@ -4,15 +4,15 @@
     height: auto;
     padding: 2vw;
     margin: auto;
-    border-radius: var(--borders-slightly-round);
-    background-color: var(--main-background-color);
+    /* border-radius: var(--borders-slightly-round);
+    background-color: var(--main-background-color); */
 }
 
 .main-index > section{
     padding: 1vw;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     background-color: var(--main-section-color);
-    border:dashed black 2px;
+    /* border:dashed black 2px; */
     border-radius: var(--borders-slightly-round);
 }
 
@@ -40,7 +40,7 @@ p{
 }
 
 .sixth-section-index{
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
 }
 
 .sixth-section-index img{
